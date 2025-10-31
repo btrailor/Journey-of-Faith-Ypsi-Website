@@ -260,48 +260,14 @@ footer {
   }
 }
 
-// Custom cross icon
-.icon-cross {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233C5230' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3Cline x1='7' y1='7' x2='17' y2='7'/%3E%3C/svg%3E");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+// Tagline section PNG icons
+.tagline-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 
-  &.display-4 {
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-  }
-
-  &.d-block {
-    display: block !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-// Custom chalice icon
-.icon-chalice {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233C5230' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 4 L7 10 L10 14 L10 18'/%3E%3Cpath d='M17 4 L17 10 L14 14 L14 18'/%3E%3Cline x1='7' y1='4' x2='17' y2='4'/%3E%3Cline x1='12' y1='18' x2='12' y2='20'/%3E%3Cline x1='9' y1='20' x2='15' y2='20'/%3E%3C/svg%3E");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  &.display-4 {
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-  }
-
-  &.d-block {
-    display: block !important;
-    margin-left: auto;
-    margin-right: auto;
+  @media (min-width: 768px) {
+    width: 120px;
+    height: 120px;
   }
 }
