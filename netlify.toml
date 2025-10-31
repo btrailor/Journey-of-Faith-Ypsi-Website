@@ -4,6 +4,36 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  # Enable faster dependency installation
+  NPM_FLAGS = "--prefer-offline --no-audit"
+
+# Cache node_modules to speed up builds
+[[plugins]]
+  package = "@netlify/plugin-caching"
+
+# Ignore paths that don't affect the build
+[build.ignore]
+  # Don't rebuild for README or doc changes
+  command = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)README.md' ':(exclude)*.md' ':(exclude).vscode'"
+
+# Optimize asset delivery
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Cache static assets for 1 year
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    # HTML files: cache for 1 hour
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    # Images: cache for 1 month
+    Cache-Control = "public, max-age=2592000, immutable"
 
 [[redirects]]
   from = "/admin/*"
