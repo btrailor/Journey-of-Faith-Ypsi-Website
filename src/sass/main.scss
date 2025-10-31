@@ -1,0 +1,307 @@
+// Journey of Faith Brand Colors
+$jof-forest-green: #3C5230;    // Primary dark green
+$jof-rust: #AA3F2B;            // Accent rust/red
+$jof-sage: #65854C;            // Medium green
+$jof-sky: #B9D5DA;             // Light blue
+$jof-gray: #B0BDBF;            // Medium gray
+$jof-gold: #CB832E;            // Accent gold/orange
+$jof-cream: #F7F5EE;           // Off-white/cream
+$jof-deep-forest: #0E1B12;     // Very dark green/black
+
+// Typography
+$font-family-heading: 'Bebas Neue', cursive;
+$font-family-subheading: 'Literata', serif;
+$font-family-body: 'Literata', serif;
+
+// Bootstrap Theme Customization
+$primary: $jof-forest-green;
+$secondary: $jof-sage;
+$success: $jof-sage;
+$info: $jof-sky;
+$warning: $jof-gold;
+$danger: $jof-rust;
+$light: $jof-cream;
+$dark: $jof-deep-forest;
+
+// Body background and typography
+$body-bg: $jof-cream;
+$body-color: $jof-deep-forest;
+$font-family-base: $font-family-body;
+$headings-font-family: $font-family-heading;
+$headings-font-weight: 400;
+$font-weight-base: 400;
+$line-height-base: 1.7;
+
+// Link colors
+$link-color: $jof-forest-green;
+$link-hover-color: $jof-rust;
+
+// Import Bootstrap with our custom variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles for church website
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+// Typography overrides
+h1, h2 {
+  font-family: $font-family-heading;
+  letter-spacing: 1px;
+}
+
+h3, h4, h5, h6 {
+  font-family: $font-family-subheading;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+p, li, td, th {
+  font-family: $font-family-body;
+  line-height: 1.7;
+}
+
+.lead {
+  font-family: $font-family-body;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+// Hero section
+.hero {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+  &.hero-home {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+// Card styling
+.card {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+// Sermon and event cards
+.sermon-card, .event-card {
+  margin-bottom: 2rem;
+}
+
+// Footer
+footer {
+  background-color: $dark;
+  color: white;
+  padding: 3rem 0 1rem;
+  margin-top: 4rem;
+}
+
+// Navigation
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Section spacing
+section {
+  padding: 4rem 0;
+}
+
+// Custom utility classes
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+// Brand color utilities
+.bg-jof-forest { background-color: $jof-forest-green !important; }
+.bg-jof-rust { background-color: $jof-rust !important; }
+.bg-jof-sage { background-color: $jof-sage !important; }
+.bg-jof-sky { background-color: $jof-sky !important; }
+.bg-jof-gray { background-color: $jof-gray !important; }
+.bg-jof-gold { background-color: $jof-gold !important; }
+.bg-jof-cream { background-color: $jof-cream !important; }
+
+.text-jof-forest { color: $jof-forest-green !important; }
+.text-jof-rust { color: $jof-rust !important; }
+.text-jof-sage { color: $jof-sage !important; }
+.text-jof-gold { color: $jof-gold !important; }
+
+// Top header styling
+.top-header {
+  background-color: white;
+
+  h1 {
+    color: $jof-forest-green;
+    font-family: $font-family-heading;
+    letter-spacing: 1px;
+  }
+
+  .text-muted {
+    color: $jof-sage !important;
+    font-family: $font-family-body;
+    font-size: 0.95rem;
+  }
+
+  // Logo sizing
+  .logo-img {
+    max-height: 100px;
+    width: auto;
+
+    @media (min-width: 768px) {
+      max-height: 120px;
+    }
+
+    @media (min-width: 992px) {
+      max-height: 140px;
+    }
+  }
+}
+
+// Navigation enhancements
+.navbar-light {
+  background-color: white !important;
+
+  .navbar-brand {
+    color: $jof-forest-green !important;
+    font-family: $font-family-heading;
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+  }
+
+  .nav-link {
+    color: $jof-deep-forest !important;
+    font-family: $font-family-heading;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $jof-rust !important;
+    }
+  }
+
+  .dropdown-menu {
+    border-color: $jof-sage;
+
+    .dropdown-item {
+      font-family: $font-family-body;
+      font-size: 0.95rem;
+      text-transform: none;
+      letter-spacing: normal;
+      font-weight: 400;
+    }
+  }
+}
+
+// Hero section colors
+.hero {
+  background: linear-gradient(135deg, $jof-forest-green 0%, $jof-sage 100%);
+}
+
+// Buttons
+.btn {
+  font-family: $font-family-heading;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  &:hover {
+    background-color: darken($jof-forest-green, 10%);
+    border-color: darken($jof-forest-green, 10%);
+  }
+}
+
+.btn-outline-primary {
+  &:hover {
+    background-color: $jof-forest-green;
+    border-color: $jof-forest-green;
+  }
+}
+
+// Footer enhancements
+footer {
+  a {
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $jof-gold !important;
+    }
+  }
+}
+
+// Accent borders and highlights
+.border-top {
+  border-top-color: $jof-sage !important;
+}
+
+// Card accents
+.card {
+  border-color: rgba($jof-sage, 0.2);
+
+  &:hover {
+    border-color: $jof-sage;
+    box-shadow: 0 4px 8px rgba($jof-forest-green, 0.1);
+  }
+}
+
+// Custom cross icon
+.icon-cross {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233C5230' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3Cline x1='7' y1='7' x2='17' y2='7'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &.display-4 {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  &.d-block {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// Custom chalice icon
+.icon-chalice {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233C5230' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 4 L7 10 L10 14 L10 18'/%3E%3Cpath d='M17 4 L17 10 L14 14 L14 18'/%3E%3Cline x1='7' y1='4' x2='17' y2='4'/%3E%3Cline x1='12' y1='18' x2='12' y2='20'/%3E%3Cline x1='9' y1='20' x2='15' y2='20'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &.display-4 {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  &.d-block {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

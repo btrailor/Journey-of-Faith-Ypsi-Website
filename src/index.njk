@@ -1,0 +1,140 @@
+---
+layout: base
+title: Home
+heroTitle: Welcome to Journey of Faith
+heroSubtitle: An outpost of God's kingdom - rooted in the Biblical story, living towards God's kingdom
+---
+
+<!-- Hero Section -->
+<div class="hero hero-home bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="display-3 fw-bold mb-3">{{ heroTitle }}</h1>
+        <p class="lead mb-4">{{ heroSubtitle }}</p>
+        <div class="d-flex gap-2 justify-content-center flex-wrap">
+          <a href="/worship/in-person/" class="btn btn-light btn-lg">Visit Us</a>
+          <a href="/convictions/" class="btn btn-outline-light btn-lg">Our Convictions</a>
+          <a href="/about/contact/" class="btn btn-outline-light btn-lg">Get Connected</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tagline Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <span class="icon-cross display-4 d-block mb-3"></span>
+        <h3>Christ in All</h3>
+        <p>Spiritual formation through mentoring, community groups, and worship</p>
+        <a href="/convictions/mission/" class="btn btn-sm btn-outline-primary">Learn More</a>
+      </div>
+      <div class="col-md-4 mb-4">
+        <span class="icon-chalice display-4 d-block mb-3"></span>
+        <h3>Communion for All</h3>
+        <p>Mutual care through sharing joys and burdens, story circles, and community meals</p>
+        <a href="/community/" class="btn btn-sm btn-outline-primary">Join Us</a>
+      </div>
+      <div class="col-md-4 mb-4">
+        <i class="bi bi-people display-4 text-primary mb-3"></i>
+        <h3>Connecting with All</h3>
+        <p>Social justice partnering around poverty and elder care</p>
+        <a href="/mission/" class="btn btn-sm btn-outline-primary">Get Involved</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Welcome Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="mb-4">You Belong Here</h2>
+        <p class="lead">Journey of Faith is a community where questions are welcome, diversity is celebrated, and all are invited to experience God's transformative love.</p>
+        <p>We believe faith is a journey, not a destination. Whether you're:</p>
+        <ul>
+          <li>Exploring Christianity for the first time</li>
+          <li>Returning to faith after time away</li>
+          <li>Wrestling with doubts and questions</li>
+          <li>Seeking a community committed to justice</li>
+          <li>Looking for a church that values inclusivity</li>
+        </ul>
+        <p>There's a place for you here.</p>
+        <a href="/about/" class="btn btn-primary">Learn About Us</a>
+      </div>
+      <div class="col-lg-6">
+        <div class="bg-light p-4 rounded">
+          <h4 class="mb-3">Our Values</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i> <strong>Transformative Love</strong></li>
+            <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i> <strong>Inclusivity</strong></li>
+            <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i> <strong>Curiosity</strong></li>
+            <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i> <strong>Humility</strong></li>
+            <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i> <strong>Creativity</strong></li>
+          </ul>
+          <a href="/convictions/values/" class="btn btn-sm btn-outline-primary">Explore Our Values</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Recent Sermons -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Recent Sermons</h2>
+    <div class="row">
+      {% for sermon in collections.sermons | reverse | limit(3) %}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 sermon-card">
+          <div class="card-body">
+            <h5 class="card-title">{{ sermon.data.title }}</h5>
+            <p class="card-text">
+              <small class="text-muted">{{ sermon.data.date | dateDisplay }}</small><br>
+              <small class="text-muted">{{ sermon.data.pastor }}</small>
+            </p>
+            <p class="card-text">{{ sermon.data.scripture }}</p>
+            <a href="{{ sermon.url }}" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="text-center mt-4">
+      <a href="/sermons/" class="btn btn-outline-primary">View All Sermons</a>
+    </div>
+  </div>
+</section>
+
+<!-- Upcoming Events -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Upcoming Events</h2>
+    <div class="row">
+      {% for event in collections.events | reverse | limit(3) %}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 event-card">
+          {% if event.data.featuredImage %}
+          <img src="{{ event.data.featuredImage }}" class="card-img-top" alt="{{ event.data.title }}">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ event.data.title }}</h5>
+            <p class="card-text">
+              <i class="bi bi-calendar"></i> {{ event.data.eventDate | dateDisplay }}<br>
+              <i class="bi bi-geo-alt"></i> {{ event.data.location }}
+            </p>
+            <a href="{{ event.url }}" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="text-center mt-4">
+      <a href="/events/" class="btn btn-outline-primary">View All Events</a>
+    </div>
+  </div>
+</section>
