@@ -14,7 +14,7 @@
 # Ignore paths that don't affect the build
 [build.ignore]
   # Don't rebuild for README or doc changes
-  command = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)README.md' ':(exclude)*.md' ':(exclude).vscode'"
+  command = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)README.md' ':(exclude).vscode'"
 
 # Optimize asset delivery
 [[headers]]
