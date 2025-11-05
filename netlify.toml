@@ -7,10 +7,6 @@
   # Enable faster dependency installation
   NPM_FLAGS = "--prefer-offline --no-audit"
 
-# Cache node_modules to speed up builds
-[[plugins]]
-  package = "@netlify/plugin-caching"
-
 # Optimize asset delivery
 [[headers]]
   for = "/*"
