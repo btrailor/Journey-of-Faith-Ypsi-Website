@@ -1,17 +1,6 @@
-# For testing - no authentication required
 backend:
-  name: test-repo
-
-# For production with GitHub authentication
-# backend:
-#   name: github
-#   repo: BTrailor/journey-of-faith-ypsi-website
-#   branch: main
-
-# Alternative: Git Gateway (requires Netlify Identity)
-# backend:
-#   name: git-gateway
-#   branch: main
+  name: git-gateway
+  branch: main
 
 media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
