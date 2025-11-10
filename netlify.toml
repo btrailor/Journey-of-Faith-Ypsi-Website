@@ -1,8 +1,7 @@
 [build]
-  # Disable builds since we're using Vercel for hosting
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF"
-  command = "echo 'Build skipped - using Vercel for hosting'"
-  publish = "."
+  # Create minimal structure for Identity service only
+  command = "mkdir -p _site && echo '<h1>This site is hosted on Vercel</h1><p>Identity service only</p>' > _site/index.html"
+  publish = "_site"
 
 [build.environment]
   NODE_VERSION = "18"
