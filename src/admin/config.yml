@@ -2,7 +2,7 @@ backend:
   name: github
   repo: BTrailor/journey-of-faith-ypsi-website
   branch: main
-  base_url: https://jof-cms-interface.netlify.app
+  base_url: https://api.netlify.com
   auth_endpoint: auth
 
 media_folder: "src/images/uploads"
