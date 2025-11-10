@@ -1,11 +1,11 @@
 [build]
   # Disable builds since we're using Vercel for hosting
-  ignore = "exit 0"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF"
+  command = "echo 'Build skipped - using Vercel for hosting'"
+  publish = "."
 
 [build.environment]
   NODE_VERSION = "18"
-  # Enable faster dependency installation
-  NPM_FLAGS = "--prefer-offline --no-audit"
 
 # Identity and Git Gateway settings for CMS
 [identity]
