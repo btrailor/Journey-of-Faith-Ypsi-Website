@@ -6,19 +6,41 @@
     <title>Content Manager</title>
   </head>
   <body>
+    <!-- Loading message -->
+    <div
+      id="loading"
+      style="text-align: center; padding: 50px; font-family: Arial, sans-serif"
+    >
+      <h2>Loading Content Manager...</h2>
+      <p>Please wait while the admin interface loads.</p>
+    </div>
+
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
     <script>
-      // Log CMS initialization
-      if (window.CMS) {
-        window.CMS.registerEventListener({
-          name: "prePublish",
-          handler: ({ author, entry }) => {
-            console.log("Publishing:", entry);
-          },
-        });
+      console.log("Admin page loaded, checking for CMS...");
+
+      // Wait for CMS to load
+      function initCMS() {
+        if (window.CMS) {
+          console.log("CMS loaded successfully!");
+          document.getElementById("loading").style.display = "none";
+
+          window.CMS.registerEventListener({
+            name: "prePublish",
+            handler: ({ author, entry }) => {
+              console.log("Publishing:", entry);
+            },
+          });
+        } else {
+          console.log("CMS not ready yet, retrying...");
+          setTimeout(initCMS, 100);
+        }
       }
+
+      // Start checking for CMS after a short delay
+      setTimeout(initCMS, 500);
     </script>
   </body>
 </html>
