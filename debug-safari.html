@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safari Video Debug</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      .debug-section {
+        border: 2px solid #333;
+        margin: 20px 0;
+        padding: 20px;
+        position: relative;
+        background: #f0f0f0;
+      }
+
+      .debug-section h3 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      /* Test 1: Standard absolute positioning */
+      .test1 video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      .test1 .content {
+        position: relative;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Test 2: Display block with absolute */
+      .test2 video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        z-index: 1;
+        display: block !important;
+      }
+
+      .test2 .content {
+        position: relative;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Test 3: Fixed positioning */
+      .test3 {
+        height: 200px;
+        overflow: hidden;
+      }
+
+      .test3 video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      .test3 .content {
+        position: relative;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Test 4: Our current approach */
+      .test4 {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+      }
+
+      .test4 video {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        width: auto !important;
+        height: auto !important;
+        min-width: 100% !important;
+        min-height: 100% !important;
+        transform: translate(-50%, -50%) !important;
+        object-fit: cover !important;
+        z-index: 1 !important;
+        display: block !important;
+      }
+
+      .test4 .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+      }
+
+      .browser-info {
+        background: #e0e0e0;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Safari Video Background Debug Tool</h1>
+
+    <div class="browser-info">
+      <strong>Browser:</strong> <span id="browser"></span><br />
+      <strong>User Agent:</strong> <span id="userAgent"></span>
+    </div>
+
+    <div class="debug-section test1">
+      <h3>Test 1: Standard Absolute Positioning</h3>
+      <video autoplay muted loop playsinline>
+        <source
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="content">
+        <p>This text should be ON TOP of the video</p>
+      </div>
+    </div>
+
+    <div class="debug-section test2">
+      <h3>Test 2: Display Block + Absolute</h3>
+      <video autoplay muted loop playsinline>
+        <source
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="content">
+        <p>This text should be ON TOP of the video</p>
+      </div>
+    </div>
+
+    <div class="debug-section test3">
+      <h3>Test 3: Fixed Positioning</h3>
+      <video autoplay muted loop playsinline>
+        <source
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="content">
+        <p>This text should be ON TOP of the video</p>
+      </div>
+    </div>
+
+    <div class="debug-section test4">
+      <h3>Test 4: Our Current Approach</h3>
+      <video autoplay muted loop playsinline>
+        <source
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="content">
+        <p>This text should be ON TOP of the video</p>
+      </div>
+    </div>
+
+    <div class="debug-section">
+      <h3>Instructions</h3>
+      <p>1. Open Safari Developer Tools (right-click → Inspect Element)</p>
+      <p>
+        2. For each test above, check if the text appears ON TOP of the video or
+        BELOW it
+      </p>
+      <p>
+        3. In the Elements tab, inspect the video elements and check their
+        computed styles
+      </p>
+      <p>
+        4. Look specifically at: position, display, z-index, transform
+        properties
+      </p>
+      <p>5. Note which test works correctly in Safari</p>
+    </div>
+
+    <script>
+      // Detect browser
+      const isChrome =
+        /Chrome/.test(navigator.userAgent) &&
+        /Google Inc/.test(navigator.vendor);
+      const isSafari =
+        /Safari/.test(navigator.userAgent) &&
+        /Apple Computer/.test(navigator.vendor);
+      const isFirefox = /Firefox/.test(navigator.userAgent);
+
+      let browserName = "Unknown";
+      if (isChrome) browserName = "Chrome";
+      else if (isSafari) browserName = "Safari";
+      else if (isFirefox) browserName = "Firefox";
+
+      document.getElementById("browser").textContent = browserName;
+      document.getElementById("userAgent").textContent = navigator.userAgent;
+
+      // Log computed styles for debugging
+      setTimeout(() => {
+        const videos = document.querySelectorAll("video");
+        videos.forEach((video, index) => {
+          const computed = window.getComputedStyle(video);
+          console.log(`Video ${index + 1} computed styles:`, {
+            display: computed.display,
+            position: computed.position,
+            zIndex: computed.zIndex,
+            transform: computed.transform,
+            top: computed.top,
+            left: computed.left,
+            width: computed.width,
+            height: computed.height,
+          });
+        });
+      }, 2000);
+    </script>
+  </body>
+</html>

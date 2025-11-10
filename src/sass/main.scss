@@ -103,73 +103,45 @@ th {
     background: #000; // Fallback
 
     .video-carousel {
-      // Classic intrinsic ratio wrapper with Safari compositing fixes
+      // Try flexbox approach instead of absolute positioning for Safari
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
       z-index: 1;
       overflow: hidden;
 
-      // Critical: Force Safari to create proper stacking context for video
-      -webkit-transform: translateZ(0) !important;
-      transform: translateZ(0) !important;
-
-      // Force Safari to respect the container bounds
-      contain: layout size;
-      isolation: isolate;
+      // Use flexbox to center video content
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       // Safari-specific container layer management
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
-        // Ensure container creates its own compositing layer
-        will-change: transform !important;
-        -webkit-backface-visibility: hidden !important;
-        backface-visibility: hidden !important;
-
-        // Force Safari to treat container as clip boundary
-        -webkit-mask: inherit !important;
-        mask: inherit !important;
+        // Minimal transforms to avoid positioning issues
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
       }
     }
 
     video {
-      // Absolute positioning within intrinsic ratio wrapper
-      position: absolute !important;
-      top: 0 !important;
-      left: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
-      object-position: center !important;
+      // Use flex item instead of absolute positioning
+      flex-shrink: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
 
-      // Critical Safari compositing bug workaround (WebKit Bug 168823)
-      // Safari creates its own compositing layer for video that ignores positioning
-      // Force Safari to use different compositing strategy
-      -webkit-transform: translate3d(0, 0, 0) !important;
-      transform: translate3d(0, 0, 0) !important;
-      -webkit-backface-visibility: hidden !important;
-      backface-visibility: hidden !important;
-      will-change: transform !important;
-
-      // Additional Safari-specific layer fixes
+      // Minimal Safari fixes without isolation/contain
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
-        // Force new stacking context to override Safari's video layer
-        isolation: isolate !important;
-
-        // Disable Safari's native video optimizations that break positioning
-        -webkit-transform-style: preserve-3d !important;
-        transform-style: preserve-3d !important;
-
-        // Override any intrinsic sizing behavior
-        max-width: 100% !important;
-        max-height: 100% !important;
-        min-width: 100% !important;
-        min-height: 100% !important;
-
-        // Ensure Safari treats as regular positioned element
-        contain: layout !important;
+        // Only basic transform to trigger hardware acceleration
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        
+        // Ensure proper sizing in flexbox
+        min-width: 100%;
+        min-height: 100%;
       }
     }
 
