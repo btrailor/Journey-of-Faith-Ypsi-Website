@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: BTrailor/journey-of-faith-ypsi-website
   branch: main
 
-# For local development - uncomment this instead of git-gateway
+# For local development - uncomment this instead of github
 # backend:
 #   name: test-repo
 
