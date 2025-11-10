@@ -1,11 +1,13 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: BTrailor/journey-of-faith-ypsi-website
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
-# Alternative: GitHub direct authentication (current setup)
+# Alternative: Git Gateway (requires Netlify Identity)
 # backend:
-#   name: github
-#   repo: BTrailor/journey-of-faith-ypsi-website
+#   name: git-gateway
 #   branch: main
 
 # For local development - uncomment this instead
