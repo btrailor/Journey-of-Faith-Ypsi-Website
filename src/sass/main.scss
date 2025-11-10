@@ -117,16 +117,28 @@ th {
       height: 100%;
       z-index: 1;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      // Safari-specific container fixes
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
     }
 
     video {
+      // Use fixed positioning for Safari to avoid layout issues
       position: absolute !important;
-      top: 0 !important;
-      left: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
+      top: 50% !important;
+      left: 50% !important;
+      width: auto !important;
+      height: auto !important;
+      min-width: 100% !important;
+      min-height: 100% !important;
+      transform: translate(-50%, -50%) !important;
+      -webkit-transform: translate(-50%, -50%) !important;
       object-fit: cover !important;
-      -webkit-object-fit: cover !important; // Safari support
+      -webkit-object-fit: cover !important;
       opacity: 1;
       transition: opacity 2s ease-in-out;
       display: block !important;
@@ -135,19 +147,18 @@ th {
       padding: 0 !important;
       border: none !important;
       outline: none !important;
-      transform: translateZ(0) !important; // Force hardware acceleration
-      -webkit-transform: translateZ(0) !important;
       backface-visibility: hidden !important;
       -webkit-backface-visibility: hidden !important;
-      min-width: 100% !important;
-      min-height: 100% !important;
-      float: none !important;
-      clear: both !important;
 
-      // Safari-specific fixes
-      @supports (-webkit-appearance: none) {
-        position: fixed !important;
-        position: absolute !important; // Override the fixed position immediately
+      // Alternative Safari approach - use viewport units
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        width: 100vw !important;
+        height: 56.25vw !important; // 16:9 aspect ratio
+        min-height: 100vh !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        -webkit-transform: translate(-50%, -50%) !important;
       }
     }
 
