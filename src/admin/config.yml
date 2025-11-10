@@ -1,9 +1,14 @@
 backend:
-  name: github
-  repo: BTrailor/journey-of-faith-ypsi-website
+  name: git-gateway
   branch: main
 
-# For local development - uncomment this instead of github
+# Alternative: GitHub direct authentication (current setup)
+# backend:
+#   name: github
+#   repo: BTrailor/journey-of-faith-ypsi-website
+#   branch: main
+
+# For local development - uncomment this instead
 # backend:
 #   name: test-repo
 

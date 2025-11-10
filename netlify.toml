@@ -1,11 +1,15 @@
 [build]
-  command = "npm run build"
-  publish = "_site"
+  # Disable builds since we're using Vercel for hosting
+  ignore = "exit 0"
 
 [build.environment]
   NODE_VERSION = "18"
   # Enable faster dependency installation
   NPM_FLAGS = "--prefer-offline --no-audit"
+
+# Identity and Git Gateway settings for CMS
+[identity]
+  path = "/admin/"
 
 # Optimize asset delivery
 [[headers]]
