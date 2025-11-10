@@ -1,6 +1,6 @@
 [build]
-  # Create minimal structure for Identity service only
-  command = "mkdir -p _site && echo '<h1>This site is hosted on Vercel</h1><p>Identity service only</p>' > _site/index.html"
+  # Build the actual site for OAuth functionality
+  command = "npm run build"
   publish = "_site"
 
 [build.environment]
