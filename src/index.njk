@@ -8,7 +8,7 @@ heroSubtitle: An outpost of God's kingdom - rooted in the Biblical story, living
 <!-- Hero Video Section -->
 <div class="hero hero-home hero-video">
   <div class="video-carousel">
-    <video class="active" autoplay muted loop playsinline preload="auto" webkit-playsinline disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback"  style="pointer-events: none;"
+    <video class="active" autoplay muted loop playsinline preload="auto" webkit-playsinline disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback" style="pointer-events: none; opacity: 0;" onloadstart="this.style.opacity='1';" oncanplay="hideVideoControls(this);"
       <source src="/videos/community-1-web.mp4?v=2" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
       <source src="/videos/community-1.mp4?v=2" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
       <source src="/videos/test-video.mp4?v=2" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
@@ -149,3 +149,33 @@ heroSubtitle: An outpost of God's kingdom - rooted in the Biblical story, living
     </div>
   </div>
 </section>
+
+<script>
+function hideVideoControls(video) {
+  // Immediately hide any controls that might appear
+  video.controls = false;
+  video.setAttribute('controls', false);
+  video.removeAttribute('controls');
+  
+  // Force remove webkit controls
+  video.style.pointerEvents = 'none';
+  video.style.webkitUserSelect = 'none';
+  video.style.userSelect = 'none';
+  
+  // Prevent context menu
+  video.oncontextmenu = function() { return false; };
+  
+  // Ensure video stays muted and looping
+  video.muted = true;
+  video.loop = true;
+  
+  // Hide any control shadows that Safari might add
+  video.style.webkitAppearance = 'none';
+}
+
+// Also run on DOM ready
+document.addEventListener('DOMContentLoaded', function() {
+  const videos = document.querySelectorAll('.hero-video video');
+  videos.forEach(hideVideoControls);
+});
+</script>

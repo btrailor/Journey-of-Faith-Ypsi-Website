@@ -136,17 +136,32 @@ th {
       // Completely disable video controls and interactions
       pointer-events: none;
 
+      // Smooth fade in transition to prevent controls flash
+      transition: opacity 0.3s ease-in-out;
+
       // Hide any control elements that might appear
       &::-webkit-media-controls,
       &::-webkit-media-controls-panel,
       &::-webkit-media-controls-play-button,
-      &::-webkit-media-controls-start-playback-button {
+      &::-webkit-media-controls-start-playback-button,
+      &::-webkit-media-controls-overlay-play-button,
+      &::-webkit-media-controls-overlay-enclosure,
+      &::-webkit-media-controls-fullscreen-button,
+      &::-webkit-media-controls-toggle-closed-captions-button {
         display: none !important;
-        -webkit-appearance: none;
+        -webkit-appearance: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
       }
 
-      // Prevent context menu
-      &::-webkit-media-controls-overlay-play-button {
+      // Prevent any user selection or interaction
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      // Disable right-click context menu
+      &::-webkit-media-controls-panel {
         display: none !important;
       }
 
@@ -159,6 +174,12 @@ th {
         // Ensure proper sizing in flexbox
         min-width: 100%;
         min-height: 100%;
+
+        // Additional Safari control hiding
+        &::-webkit-media-controls {
+          display: none !important;
+          -webkit-appearance: none !important;
+        }
       }
     }
 
