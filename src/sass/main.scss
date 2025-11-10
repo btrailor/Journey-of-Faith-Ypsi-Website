@@ -102,6 +102,12 @@ th {
     min-height: 400px;
     max-height: 650px;
     display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    transform: translateZ(
+      0
+    ) !important; // Force hardware acceleration for Safari
+    -webkit-transform: translateZ(0) !important;
 
     .video-carousel {
       position: absolute;
@@ -120,6 +126,7 @@ th {
       width: 100% !important;
       height: 100% !important;
       object-fit: cover !important;
+      -webkit-object-fit: cover !important; // Safari support
       opacity: 1;
       transition: opacity 2s ease-in-out;
       display: block !important;
@@ -128,6 +135,20 @@ th {
       padding: 0 !important;
       border: none !important;
       outline: none !important;
+      transform: translateZ(0) !important; // Force hardware acceleration
+      -webkit-transform: translateZ(0) !important;
+      backface-visibility: hidden !important;
+      -webkit-backface-visibility: hidden !important;
+      min-width: 100% !important;
+      min-height: 100% !important;
+      float: none !important;
+      clear: both !important;
+
+      // Safari-specific fixes
+      @supports (-webkit-appearance: none) {
+        position: fixed !important;
+        position: absolute !important; // Override the fixed position immediately
+      }
     }
 
     .hero-overlay {
