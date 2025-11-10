@@ -18,7 +18,12 @@ collections:
         name: "home"
         file: "src/index.njk"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "base" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "base",
+            }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Hero Title", name: "heroTitle", widget: "string" }
           - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
@@ -31,54 +36,114 @@ collections:
         name: "about_index"
         file: "src/about/index.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "History & Denomination"
         name: "history"
         file: "src/about/history.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/history/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/history/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Leadership"
         name: "leadership"
         file: "src/about/leadership.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/leadership/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/leadership/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "FAQ"
         name: "faq"
         file: "src/about/faq.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/faq/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/faq/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Drinks with Pastor"
         name: "drinks_with_pastor"
         file: "src/about/drinks-with-pastor.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/drinks-with-pastor/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/drinks-with-pastor/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Contact"
         name: "contact"
         file: "src/about/contact.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/contact/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/contact/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "convictions"
@@ -88,27 +153,57 @@ collections:
         name: "vision"
         file: "src/convictions/vision.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/convictions/vision/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/convictions/vision/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Values We Pursue"
         name: "values"
         file: "src/convictions/values.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/convictions/values/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/convictions/values/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Mission We Do"
         name: "mission_convictions"
         file: "src/convictions/mission.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/convictions/mission/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/convictions/mission/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "worship"
@@ -118,18 +213,38 @@ collections:
         name: "in_person"
         file: "src/worship/in-person.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/worship/in-person/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/worship/in-person/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Online Worship"
         name: "online"
         file: "src/worship/online.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/worship/online/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/worship/online/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "community_pages"
@@ -139,36 +254,76 @@ collections:
         name: "groups"
         file: "src/community/groups.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/community/groups/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/community/groups/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Story Circles"
         name: "story_circles"
         file: "src/community/story-circles.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/community/story-circles/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/community/story-circles/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Community Meals"
         name: "meals"
         file: "src/community/meals.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/community/meals/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/community/meals/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Children & Youth"
         name: "children_youth"
         file: "src/community/children-youth.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/community/children-youth/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/community/children-youth/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "mission_pages"
@@ -178,18 +333,38 @@ collections:
         name: "housing"
         file: "src/mission/housing.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/mission/housing/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/mission/housing/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Elder Care Ministry"
         name: "elderly"
         file: "src/mission/elderly.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/mission/elderly/" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/mission/elderly/",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "sermons"
@@ -202,10 +377,25 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Pastor", name: "pastor", widget: "string" }
-      - { label: "Scripture", name: "scripture", widget: "string", required: false }
+      - {
+          label: "Scripture",
+          name: "scripture",
+          widget: "string",
+          required: false,
+        }
       - { label: "Series", name: "series", widget: "string", required: false }
-      - { label: "Audio URL", name: "audioUrl", widget: "string", required: false }
-      - { label: "Video URL", name: "videoUrl", widget: "string", required: false }
+      - {
+          label: "Audio URL",
+          name: "audioUrl",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Video URL",
+          name: "videoUrl",
+          widget: "string",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "events"
@@ -219,7 +409,12 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Event Date", name: "eventDate", widget: "datetime" }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
+      - {
+          label: "Featured Image",
+          name: "featuredImage",
+          widget: "image",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "settings"

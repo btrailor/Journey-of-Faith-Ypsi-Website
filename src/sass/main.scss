@@ -133,6 +133,23 @@ th {
       object-fit: cover;
       object-position: center;
 
+      // Completely disable video controls and interactions
+      pointer-events: none;
+
+      // Hide any control elements that might appear
+      &::-webkit-media-controls,
+      &::-webkit-media-controls-panel,
+      &::-webkit-media-controls-play-button,
+      &::-webkit-media-controls-start-playback-button {
+        display: none !important;
+        -webkit-appearance: none;
+      }
+
+      // Prevent context menu
+      &::-webkit-media-controls-overlay-play-button {
+        display: none !important;
+      }
+
       // Minimal Safari fixes without isolation/contain
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
         // Only basic transform to trigger hardware acceleration
