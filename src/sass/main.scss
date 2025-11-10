@@ -91,9 +91,9 @@ p, li, td, th {
     position: relative;
     overflow: hidden;
     padding: 0;
-    min-height: 500px;
-    max-height: 600px;
     height: 60vh;
+    min-height: 400px;
+    max-height: 650px;
 
     .video-carousel {
       position: absolute;
@@ -131,13 +131,16 @@ p, li, td, th {
     }
 
     .hero-content {
-      position: relative;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
       z-index: 3;
-      padding: 100px 0;
-      min-height: 500px;
       display: flex;
       align-items: center;
-      width: 100%;
+      justify-content: center;
+      padding: 2rem 0;
     }
   }
 }
