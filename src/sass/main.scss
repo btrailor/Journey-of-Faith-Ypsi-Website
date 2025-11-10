@@ -147,14 +147,10 @@ th {
     video {
       // Standard positioning that works for all browsers
       position: absolute !important;
-      top: 50% !important;
-      left: 50% !important;
-      width: auto !important;
-      height: auto !important;
-      min-width: 100% !important;
-      min-height: 100% !important;
-      transform: translate(-50%, -50%) !important;
-      -webkit-transform: translate(-50%, -50%) !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
       object-fit: cover !important;
       -webkit-object-fit: cover !important;
       opacity: 1;
@@ -168,30 +164,46 @@ th {
       -webkit-backface-visibility: hidden !important;
 
       // Critical fix for Safari's video element handling
-      // Safari treats video as inline-replaced element by default
       // Force it to behave as a proper block-level positioned element
       display: block !important;
 
-      // Safari-specific fixes for replaced element positioning
+      // Override Safari's intrinsic sizing behavior
+      // Safari screenshot shows 1920x1080 - we need to force container sizing
+      max-width: 100% !important;
+      max-height: 100% !important;
+      min-width: 100% !important;
+      min-height: 100% !important;
+
+      // Safari-specific fixes for replaced element positioning and sizing
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
-        // Ensure Safari respects absolute positioning properly
-        position: absolute !important;
+        // Force Safari to ignore intrinsic video dimensions
+        width: 100% !important;
+        height: 100% !important;
+
+        // Position at container edges, not centered
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+
+        // Remove any transforms that might interfere
+        transform: none !important;
+        -webkit-transform: none !important;
 
         // Force Safari to treat video as positioned element, not replaced element
         -webkit-appearance: none !important;
         appearance: none !important;
 
-        // Create proper stacking context for Safari
-        transform: translate(-50%, -50%) translateZ(0) !important;
-        -webkit-transform: translate(-50%, -50%) translateZ(0) !important;
-
-        // Ensure Safari respects container boundaries
-        max-width: none !important;
-        max-height: none !important;
+        // Aggressive sizing override for Safari
+        box-sizing: border-box !important;
 
         // Force Safari compositing layer
         will-change: transform !important;
         isolation: isolate !important;
+
+        // Ensure object-fit works properly in Safari
+        object-fit: cover !important;
+        object-position: center !important;
       }
     }
 
