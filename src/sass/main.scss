@@ -131,21 +131,21 @@ th {
       isolation: isolate;
       will-change: transform;
 
-      // Force Safari to respect container boundaries
+      // Safari-specific container positioning fixes
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100vw !important;
-        height: 100vh !important;
-        display: block !important;
-        align-items: unset !important;
-        justify-content: unset !important;
+        // Keep relative positioning to maintain document flow
+        position: absolute !important;
+
+        // Ensure proper containment for Safari
+        contain: layout style !important;
+
+        // Force Safari to create proper stacking context
+        isolation: isolate !important;
       }
     }
 
     video {
-      // Use fixed positioning for Safari to avoid layout issues
+      // Standard positioning that works for all browsers
       position: absolute !important;
       top: 50% !important;
       left: 50% !important;
@@ -159,7 +159,6 @@ th {
       -webkit-object-fit: cover !important;
       opacity: 1;
       transition: opacity 2s ease-in-out;
-      display: block !important;
       z-index: 1 !important;
       margin: 0 !important;
       padding: 0 !important;
@@ -168,30 +167,31 @@ th {
       backface-visibility: hidden !important;
       -webkit-backface-visibility: hidden !important;
 
-      // Critical Safari compositing fixes
-      will-change: transform, opacity !important;
-      isolation: isolate !important;
+      // Critical fix for Safari's video element handling
+      // Safari treats video as inline-replaced element by default
+      // Force it to behave as a proper block-level positioned element
+      display: block !important;
 
-      // Aggressive Safari fix - force video to cover entire viewport
+      // Safari-specific fixes for replaced element positioning
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
-        // Reset positioning completely for Safari
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100vw !important;
-        height: 100vh !important;
-        min-width: 100vw !important;
-        min-height: 100vh !important;
+        // Ensure Safari respects absolute positioning properly
+        position: absolute !important;
+
+        // Force Safari to treat video as positioned element, not replaced element
+        -webkit-appearance: none !important;
+        appearance: none !important;
+
+        // Create proper stacking context for Safari
+        transform: translate(-50%, -50%) translateZ(0) !important;
+        -webkit-transform: translate(-50%, -50%) translateZ(0) !important;
+
+        // Ensure Safari respects container boundaries
         max-width: none !important;
         max-height: none !important;
-        transform: none !important;
-        -webkit-transform: none !important;
-        object-fit: cover !important;
-        object-position: center !important;
 
-        // Force Safari to create a new stacking context
-        contain: layout !important;
-        will-change: transform, opacity !important;
+        // Force Safari compositing layer
+        will-change: transform !important;
+        isolation: isolate !important;
       }
     }
 
