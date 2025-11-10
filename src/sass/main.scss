@@ -1,17 +1,17 @@
 // Journey of Faith Brand Colors
-$jof-forest-green: #3C5230;    // Primary dark green
-$jof-rust: #AA3F2B;            // Accent rust/red
-$jof-sage: #65854C;            // Medium green
-$jof-sky: #B9D5DA;             // Light blue
-$jof-gray: #B0BDBF;            // Medium gray
-$jof-gold: #CB832E;            // Accent gold/orange
-$jof-cream: #F7F5EE;           // Off-white/cream
-$jof-deep-forest: #0E1B12;     // Very dark green/black
+$jof-forest-green: #3c5230; // Primary dark green
+$jof-rust: #aa3f2b; // Accent rust/red
+$jof-sage: #65854c; // Medium green
+$jof-sky: #b9d5da; // Light blue
+$jof-gray: #b0bdbf; // Medium gray
+$jof-gold: #cb832e; // Accent gold/orange
+$jof-cream: #f7f5ee; // Off-white/cream
+$jof-deep-forest: #0e1b12; // Very dark green/black
 
 // Typography
-$font-family-heading: 'Bebas Neue', cursive;
-$font-family-subheading: 'Literata', serif;
-$font-family-body: 'Literata', serif;
+$font-family-heading: "Bebas Neue", cursive;
+$font-family-subheading: "Literata", serif;
+$font-family-body: "Literata", serif;
 
 // Bootstrap Theme Customization
 $primary: $jof-forest-green;
@@ -51,18 +51,25 @@ main {
 }
 
 // Typography overrides
-h1, h2 {
+h1,
+h2 {
   font-family: $font-family-heading;
   letter-spacing: 1px;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-family-subheading;
   font-weight: 600;
   letter-spacing: 0.3px;
 }
 
-p, li, td, th {
+p,
+li,
+td,
+th {
   font-family: $font-family-body;
   line-height: 1.7;
 }
@@ -79,7 +86,7 @@ p, li, td, th {
   background-position: center;
   color: white;
   padding: 100px 0;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   &.hero-home {
     min-height: 500px;
@@ -91,6 +98,9 @@ p, li, td, th {
     position: relative;
     overflow: hidden;
     padding: 0;
+    height: 60vh;
+    min-height: 400px;
+    max-height: 650px;
 
     .video-carousel {
       position: absolute;
@@ -99,17 +109,15 @@ p, li, td, th {
       width: 100%;
       height: 100%;
       z-index: 1;
+      overflow: hidden;
     }
 
-    .hero-video {
+    video {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      transform: translate(-50%, -50%);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
       opacity: 1;
       transition: opacity 2s ease-in-out;
@@ -126,12 +134,16 @@ p, li, td, th {
     }
 
     .hero-content {
-      position: relative;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
       z-index: 3;
-      padding: 100px 0;
-      min-height: 500px;
       display: flex;
       align-items: center;
+      justify-content: center;
+      padding: 2rem 0;
     }
   }
 }
@@ -146,7 +158,8 @@ p, li, td, th {
 }
 
 // Sermon and event cards
-.sermon-card, .event-card {
+.sermon-card,
+.event-card {
   margin-bottom: 2rem;
 }
 
@@ -160,7 +173,7 @@ footer {
 
 // Navigation
 .navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 // Section spacing
@@ -170,22 +183,44 @@ section {
 
 // Custom utility classes
 .text-shadow {
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 // Brand color utilities
-.bg-jof-forest { background-color: $jof-forest-green !important; }
-.bg-jof-rust { background-color: $jof-rust !important; }
-.bg-jof-sage { background-color: $jof-sage !important; }
-.bg-jof-sky { background-color: $jof-sky !important; }
-.bg-jof-gray { background-color: $jof-gray !important; }
-.bg-jof-gold { background-color: $jof-gold !important; }
-.bg-jof-cream { background-color: $jof-cream !important; }
+.bg-jof-forest {
+  background-color: $jof-forest-green !important;
+}
+.bg-jof-rust {
+  background-color: $jof-rust !important;
+}
+.bg-jof-sage {
+  background-color: $jof-sage !important;
+}
+.bg-jof-sky {
+  background-color: $jof-sky !important;
+}
+.bg-jof-gray {
+  background-color: $jof-gray !important;
+}
+.bg-jof-gold {
+  background-color: $jof-gold !important;
+}
+.bg-jof-cream {
+  background-color: $jof-cream !important;
+}
 
-.text-jof-forest { color: $jof-forest-green !important; }
-.text-jof-rust { color: $jof-rust !important; }
-.text-jof-sage { color: $jof-sage !important; }
-.text-jof-gold { color: $jof-gold !important; }
+.text-jof-forest {
+  color: $jof-forest-green !important;
+}
+.text-jof-rust {
+  color: $jof-rust !important;
+}
+.text-jof-sage {
+  color: $jof-sage !important;
+}
+.text-jof-gold {
+  color: $jof-gold !important;
+}
 
 // Top header styling
 .top-header {
