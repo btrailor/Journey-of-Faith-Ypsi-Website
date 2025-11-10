@@ -109,6 +109,10 @@ th {
     ) !important; // Force hardware acceleration for Safari
     -webkit-transform: translateZ(0) !important;
 
+    // Safari-specific layering fixes
+    isolation: isolate !important;
+    will-change: transform !important;
+
     .video-carousel {
       position: absolute;
       top: 0;
@@ -124,6 +128,8 @@ th {
       // Safari-specific container fixes
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
+      isolation: isolate;
+      will-change: transform;
     }
 
     video {
@@ -150,6 +156,10 @@ th {
       backface-visibility: hidden !important;
       -webkit-backface-visibility: hidden !important;
 
+      // Critical Safari compositing fixes
+      will-change: transform, opacity !important;
+      isolation: isolate !important;
+
       // Alternative Safari approach - use viewport units
       @media screen and (-webkit-min-device-pixel-ratio: 0) {
         width: 100vw !important;
@@ -159,6 +169,10 @@ th {
         left: 50% !important;
         transform: translate(-50%, -50%) !important;
         -webkit-transform: translate(-50%, -50%) !important;
+
+        // Force Safari to create a new stacking context
+        contain: layout !important;
+        will-change: transform, opacity !important;
       }
     }
 
