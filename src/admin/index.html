@@ -8,5 +8,17 @@
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+    <script>
+      // Simple GitHub authentication handling
+      if (window.CMS) {
+        window.CMS.registerEventListener({
+          name: "preSave",
+          handler: ({ author, entry }) => {
+            console.log("Saving entry:", entry);
+          },
+        });
+      }
+    </script>
   </body>
 </html>
