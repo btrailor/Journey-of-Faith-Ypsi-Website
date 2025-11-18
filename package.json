@@ -8,9 +8,16 @@
     "start:sass": "sass --watch src/sass:_site/css",
     "build": "npm-run-all build:*",
     "build:eleventy": "eleventy",
-    "build:sass": "sass src/sass:_site/css --style=compressed"
+    "build:sass": "sass src/sass:_site/css --style=compressed",
+    "build:quick": "npm run build:sass && cp -R src/images/* _site/images/ 2>/dev/null || true",
+    "serve": "cd _site && python3 -m http.server 8000"
   },
-  "keywords": ["church", "website", "11ty", "bootstrap"],
+  "keywords": [
+    "church",
+    "website",
+    "11ty",
+    "bootstrap"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {

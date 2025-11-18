@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
         {% if site.logo %}
-        <img src="{{ site.logo }}" alt="{{ site.name }} Logo" class="logo-img">
+        <img src="{{ site.logo }}?v={{ site.version or '1' }}" alt="{{ site.name }} Logo" class="logo-img">
         {% endif %}
       </div>
       <div class="col-lg-6 text-center text-lg-end">
