@@ -7,8 +7,6 @@ scripture: 1 John 4:7-21
 series: Faith Foundations
 ---
 
-## Love One Another
-
 This week we examined the powerful call to love one another as God has loved us. Love is not just a feeling, but an action that reflects God's character.
 
 ### Key Points

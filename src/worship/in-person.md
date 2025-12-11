@@ -4,8 +4,6 @@ title: In-Person Sunday Worship
 permalink: /worship/in-person/
 ---
 
-## In-Person Sunday Worship
-
 ### What to Expect
 
 Visiting a new church can feel intimidating. Here's what to expect when you join us on Sunday morning:
@@ -27,6 +25,7 @@ Visiting a new church can feel intimidating. Here's what to expect when you join
 [Describe where to park - parking lot location, street parking, accessibility parking, etc.]
 
 Example:
+
 - Free parking is available in our lot behind the building
 - Street parking is also available on Main Street
 - Accessible parking spots are located near the main entrance
@@ -48,6 +47,7 @@ You'll see everything from jeans and t-shirts to dresses and suits. Wear whateve
 [Describe your approach to children in worship]
 
 Example options:
+
 - Children are welcome and encouraged to participate in worship with their families
 - Activity bags are available at the entrance for younger children
 - A nursery is available for infants and toddlers (ages 0-3)
@@ -65,6 +65,7 @@ We believe children belong in worship and expect them to make joyful noise! Don'
 [Explain your communion practice]
 
 Example:
+
 - We celebrate communion every Sunday
 - All are welcome to participate, regardless of church membership or denomination
 - We offer both bread and grape juice
@@ -81,6 +82,7 @@ We believe the table belongs to Jesus, not to us, and all are welcome.
 
 Example:
 Our worship includes a blend of:
+
 - Contemporary worship songs
 - Traditional hymns
 - Songs from diverse cultural traditions
@@ -95,6 +97,7 @@ We believe music is a gift that helps us connect with God and one another. Sing 
 **Stay for coffee and connection!**
 
 After worship, we gather for coffee, tea, and conversation. This is a great time to:
+
 - Meet people and make connections
 - Ask questions about Journey of Faith
 - Connect with our pastor
@@ -109,6 +112,7 @@ We'd love to get to know you!
 [Describe accessibility features]
 
 Example:
+
 - Wheelchair accessible entrance and restrooms
 - Large-print bulletins and Bibles available
 - Hearing assistance devices available
@@ -121,6 +125,7 @@ If you have specific accessibility needs, please contact us in advance and we'll
 ### Your First Visit
 
 When you arrive:
+
 1. Greeters will welcome you at the door
 2. Pick up a bulletin with the order of worship
 3. Find a seat anywhere - there are no assigned seats!

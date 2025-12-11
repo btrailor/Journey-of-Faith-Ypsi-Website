@@ -4,8 +4,6 @@ title: A Servant's Heart
 permalink: /mission/servants-heart/
 ---
 
-## A Servant's Heart
-
 [Add information about this mission partner]
 
 ### About the Organization
@@ -19,6 +17,7 @@ permalink: /mission/servants-heart/
 [Explain how Journey of Faith partners with this organization]
 
 **What we do:**
+
 - [Specific activities - volunteer, donate, advocate, etc.]
 - [How often you engage]
 - [What impact this partnership has]
@@ -28,16 +27,19 @@ permalink: /mission/servants-heart/
 ### How to Get Involved
 
 **Volunteer Opportunities:**
+
 - [List specific volunteer roles]
 - [Time commitments]
 - [How to sign up]
 
 **Donation Needs:**
+
 - [Specific items needed]
 - [Drop-off locations/times]
 - [Financial giving options]
 
 **Learn More:**
+
 - Website: [URL]
 - Contact: [Contact info]
 

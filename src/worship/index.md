@@ -4,8 +4,6 @@ title: Worship
 permalink: /worship/
 ---
 
-## Worship
-
 Worship is at the heart of our life together. Whether you join us in person or online, we gather to encounter God, celebrate grace, and be formed as disciples.
 
 ### Join Us for Worship

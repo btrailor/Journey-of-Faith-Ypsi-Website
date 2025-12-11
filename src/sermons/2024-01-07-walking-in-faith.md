@@ -7,8 +7,6 @@ scripture: Hebrews 11:1-6
 series: Faith Foundations
 ---
 
-## Walking in Faith
-
 Today we explored what it means to walk by faith and not by sight. Faith is the foundation of our relationship with God and the key to experiencing His promises in our lives.
 
 ### Key Points

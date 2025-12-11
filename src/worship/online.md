@@ -4,8 +4,6 @@ title: Online Sunday Worship
 permalink: /worship/online/
 ---
 
-## Online Sunday Worship
-
 Can't make it in person? Join us online!
 
 ---
@@ -35,12 +33,14 @@ Missed a service? Catch up on previous messages and worship services:
 Worshiping online doesn't mean worshiping alone. Here are ways to engage:
 
 **Before the Service:**
+
 - Find a quiet, comfortable space
 - Light a candle to mark this as sacred time
 - Have communion elements ready if you'd like to participate (bread and juice/wine)
 - Grab your Bible or open a Bible app
 
 **During the Service:**
+
 - Sing along with the worship songs
 - Read Scripture aloud when prompted
 - Participate in responsive readings
@@ -48,6 +48,7 @@ Worshiping online doesn't mean worshiping alone. Here are ways to engage:
 - Use the chat/comments to share prayer requests or greetings
 
 **After the Service:**
+
 - Share your reflections in the comments
 - Connect with others who worshiped online
 - Reach out if you have questions or prayer needs

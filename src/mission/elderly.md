@@ -4,8 +4,6 @@ title: Ministry for the Elderly
 permalink: /mission/elderly/
 ---
 
-## Ministry for the Elderly
-
 We honor the wisdom, dignity, and gifts of our elderly community members. Our ministry seeks to combat isolation, provide practical support, and build intergenerational connections.
 
 ---
@@ -13,6 +11,7 @@ We honor the wisdom, dignity, and gifts of our elderly community members. Our mi
 ### Why Elder Care Matters
 
 Too many seniors in our community face:
+
 - Social isolation and loneliness
 - Difficulty with daily tasks
 - Limited mobility and access to services
@@ -32,6 +31,7 @@ Scripture calls us to honor and care for the elderly:
 **Presence Over Programs**
 
 We prioritize:
+
 - Consistent visits and genuine friendship
 - Listening to stories and wisdom
 - Being present, not just checking tasks off a list
@@ -40,6 +40,7 @@ We prioritize:
 **Practical Support**
 
 We provide:
+
 - Transportation to appointments and grocery stores
 - Help with household tasks (changing light bulbs, yard work, etc.)
 - Technology assistance (phones, computers, video calls)
@@ -49,6 +50,7 @@ We provide:
 **Combating Isolation**
 
 We create connection through:
+
 - Regular phone calls and visits
 - Intergenerational events
 - Transportation to church and community events
@@ -58,6 +60,7 @@ We create connection through:
 **Advocacy**
 
 We work for:
+
 - Better elder care policies
 - Protection from scams and abuse
 - Affordable senior housing
@@ -68,12 +71,14 @@ We work for:
 ### How We Serve
 
 **Friendly Visitor Program**
+
 - Matched with an elderly community member for regular visits
 - Commitment: 1-2 hours per week
 - Training and support provided
 - Background check required
 
 **Helping Hands Team**
+
 - Small repairs and household help
 - Yard work and seasonal tasks
 - Technology troubleshooting
@@ -81,21 +86,25 @@ We work for:
 - Skills of all levels welcome
 
 **Transportation Ministry**
+
 - Provide rides to appointments, church, errands
 - Flexible schedule
 - [Requirements - driver's license, insurance, etc.]
 
 **Meal Ministry**
+
 - Prepare or deliver meals to homebound seniors
 - Weekly or occasional commitment
 - Dietary awareness training provided
 
 **Phone Pals**
+
 - Regular phone calls to isolated seniors
 - Commitment: 30 minutes per week
 - Great for those who can't commit to in-person visits
 
 **Intergenerational Programs**
+
 - Connecting youth and children with elder mentors
 - Story-sharing events
 - Shared meals and activities
@@ -105,17 +114,20 @@ We work for:
 ### Special Events
 
 **Monthly Senior Lunch**
+
 - When: [Date/time]
 - Where: [Location]
 - What: Shared meal, program, fellowship
 - Transportation available
 
 **Quarterly Outings**
+
 - Museum visits, scenic drives, concerts
 - Accessible and senior-friendly
 - Volunteers needed to accompany
 
 **Holiday Celebrations**
+
 - Special meals and events
 - Care packages for homebound
 - Card-making and remembrances
@@ -125,6 +137,7 @@ We work for:
 ### Our Partners
 
 We work with:
+
 - **[Local Senior Center]** - [Description]
 - **[Meals on Wheels or similar]** - [Description]
 - **[Elder Law Services]** - [Description]
@@ -135,6 +148,7 @@ We work with:
 ### What We Need
 
 **Volunteers**
+
 - Friendly visitors (commitment required)
 - Helping hands (flexible)
 - Drivers (as needed)
@@ -142,12 +156,14 @@ We work with:
 - Phone pals
 
 **Donations**
+
 - [Specific items needed]
 - Gift cards for emergency needs
 - Supplies for home repairs
 - Technology (tablets, phones)
 
 **Financial Support**
+
 - Emergency assistance fund
 - Transportation fund
 - Event expenses
@@ -176,6 +192,7 @@ Elder Ministry Coordinator: [name/email]
 ### The Gift of Intergenerational Connection
 
 This ministry isn't one-way. When we spend time with elderly community members, we receive:
+
 - Wisdom from lived experience
 - Perspective on what truly matters
 - Stories that connect us to history
@@ -189,6 +206,7 @@ Our elders are not a burden to bear - they are treasures to cherish.
 ### Honoring Our Church Elders
 
 We especially honor and care for elderly members of Journey of Faith:
+
 - Regular pastoral visits
 - Communion for homebound
 - Transportation to worship
@@ -206,6 +224,7 @@ We especially honor and care for elderly members of Journey of Faith:
 ### Learn More
 
 **Resources on Aging:**
+
 - [Books, articles, websites]
 - [Information on elder abuse prevention]
 - [Resources for family caregivers]

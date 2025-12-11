@@ -4,8 +4,6 @@ title: Alpha House
 permalink: /mission/alpha-house/
 ---
 
-## Alpha House
-
 [Add information about Alpha House]
 
 ### About the Organization
@@ -19,6 +17,7 @@ permalink: /mission/alpha-house/
 [Explain how Journey of Faith partners with Alpha House]
 
 **What we do:**
+
 - [Specific activities - volunteer, donate, advocate, etc.]
 - [How often you engage]
 - [What impact this partnership has]
@@ -28,16 +27,19 @@ permalink: /mission/alpha-house/
 ### How to Get Involved
 
 **Volunteer Opportunities:**
+
 - [List specific volunteer roles]
 - [Time commitments]
 - [How to sign up]
 
 **Donation Needs:**
+
 - [Specific items needed]
 - [Drop-off locations/times]
 - [Financial giving options]
 
 **Learn More:**
+
 - Website: [URL]
 - Contact: [Contact info]
 

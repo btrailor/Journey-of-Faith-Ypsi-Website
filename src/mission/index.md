@@ -4,8 +4,6 @@ title: Mission & Outreach
 permalink: /mission/
 ---
 
-## Mission & Outreach
-
 We believe the Gospel calls us to work for justice and serve those in need. Our mission partnerships focus on addressing poverty and elder care in our community.
 
 ---
@@ -24,16 +22,19 @@ We believe the Gospel calls us to work for justice and serve those in need. Our 
 We don't just write checks - we build relationships. Our mission work is characterized by:
 
 **Partnership, Not Charity**
-- We work *with* communities, not *for* them
+
+- We work _with_ communities, not _for_ them
 - We listen to those we serve
 - We build long-term relationships
 
 **Justice, Not Just Service**
+
 - We address root causes, not just symptoms
 - We advocate for systemic change
 - We use our privilege to amplify marginalized voices
 
 **Presence and Accompaniment**
+
 - We show up consistently
 - We build genuine friendships
 - We walk alongside those experiencing hardship
@@ -45,6 +46,7 @@ We don't just write checks - we build relationships. Our mission work is charact
 #### Poverty and Housing Insecurity
 
 We partner with organizations addressing:
+
 - Homelessness and housing instability
 - Food insecurity
 - Economic inequality
@@ -55,6 +57,7 @@ We partner with organizations addressing:
 #### Elder Care
 
 We support vulnerable seniors through:
+
 - Visiting isolated elderly community members
 - Practical assistance (rides, errands, home repairs)
 - Advocacy for elder justice
@@ -67,21 +70,25 @@ We support vulnerable seniors through:
 ### Get Involved
 
 **Volunteer**
+
 - Serve with one of our partner organizations
 - Use your skills to make a difference
 - Commit to regular service or one-time events
 
 **Advocate**
+
 - Learn about justice issues
 - Contact elected officials
 - Raise awareness in your networks
 
 **Give**
+
 - Financial support for our mission partners
 - Donate needed items
 - [Give online →](/give/)
 
 **Pray**
+
 - Pray for those we serve
 - Pray for wisdom and compassion
 - Pray for systemic change
