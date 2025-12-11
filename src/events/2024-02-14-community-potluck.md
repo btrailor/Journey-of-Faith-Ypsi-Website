@@ -6,8 +6,6 @@ eventDate: 2024-02-14T18:00:00
 location: Church Fellowship Hall
 ---
 
-## Community Potluck Dinner
-
 Join us for an evening of fellowship, food, and fun! Bring your favorite dish to share and enjoy connecting with your church family.
 
 ### Details

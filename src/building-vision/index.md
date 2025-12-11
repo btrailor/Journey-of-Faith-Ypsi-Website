@@ -4,8 +4,6 @@ title: The Vision for Our Building
 permalink: /building-vision/
 ---
 
-## The Vision for Our Building
-
 [Add your vision for the building here - what role does your physical space play in your mission? How does it serve the community? What are your dreams for how this space can be used?]
 
 ### Our Space, God's Kingdom

@@ -4,8 +4,6 @@ title: Community
 permalink: /community/
 ---
 
-## Community
-
 Faith is meant to be lived in community. At Journey of Faith, we create spaces for authentic relationships, mutual care, and growing together.
 
 ---

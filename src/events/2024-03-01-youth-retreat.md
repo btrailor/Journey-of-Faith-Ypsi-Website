@@ -6,8 +6,6 @@ eventDate: 2024-03-01T17:00:00
 location: Mountain View Retreat Center
 ---
 
-## Youth Winter Retreat
-
 Calling all youth! Join us for an amazing weekend retreat filled with worship, teaching, outdoor activities, and building friendships.
 
 ### Details

@@ -4,8 +4,6 @@ title: The Mission We Do
 permalink: /convictions/mission/
 ---
 
-## The Mission We Do
-
 Our mission is lived out through three interconnected practices, each reflecting a core aspect of following Jesus:
 
 ---
@@ -19,16 +17,19 @@ We believe spiritual formation is a lifelong journey of becoming more like Chris
 ### Our Practices:
 
 **Mentoring**
+
 - One-on-one spiritual direction and discipleship relationships
 - Pairing seekers with mature believers for guidance on the faith journey
 - Intergenerational mentoring that builds wisdom and connection
 
 **Community Groups**
+
 - Small groups for deeper relationships and spiritual growth
 - Bible study, prayer, and mutual encouragement
 - Contexts for wrestling with faith questions together
 
 **Worship**
+
 - Weekly gatherings centered on encountering God
 - Practices of prayer, Scripture, communion, and song
 - Creating space for the Holy Spirit to move
@@ -46,16 +47,19 @@ Following Jesus means bearing one another's burdens and celebrating together. We
 ### Our Practices:
 
 **Sharing Joys and Burdens**
+
 - Creating space in worship and community to share what's happening in our lives
 - Praying for and supporting one another in times of need
 - Celebrating milestones and answered prayers together
 
 **Story Circles**
+
 - Gatherings where we share our stories and listen deeply
 - Building empathy and understanding through narrative
 - Recognizing God's work in one another's lives
 
 **Community Meals**
+
 - Shared meals that build relationships and practice hospitality
 - Breaking bread together as Jesus did
 - Creating space for connection across differences
@@ -73,11 +77,13 @@ We believe the Gospel calls us to work for justice, particularly on behalf of th
 ### Our Focus Areas:
 
 **Poverty**
+
 - Partnering with organizations addressing economic inequality
 - Supporting those experiencing housing and food insecurity
 - Advocating for systemic change
 
 **Elder Care**
+
 - Ministry with and for elderly members of our community
 - Addressing isolation and practical needs
 - Honoring the wisdom and dignity of our elders

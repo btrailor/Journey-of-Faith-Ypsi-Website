@@ -4,8 +4,6 @@ title: Contact Us
 permalink: /about/contact/
 ---
 
-## Contact Us
-
 We'd love to hear from you!
 
 ### Worship With Us

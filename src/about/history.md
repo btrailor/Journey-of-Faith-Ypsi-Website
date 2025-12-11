@@ -4,8 +4,6 @@ title: History & Denomination
 permalink: /about/history/
 ---
 
-## History & Denomination
-
 ### Our Story
 
 [Share the history of Journey of Faith - how did the church begin? What was the founding vision? How has it evolved?]

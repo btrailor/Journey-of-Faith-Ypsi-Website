@@ -4,8 +4,6 @@ title: Community Groups
 permalink: /community/groups/
 ---
 
-## Community Groups
-
 Community groups are small gatherings where we grow in faith, build deep relationships, and support one another on the journey.
 
 ---
@@ -30,12 +28,14 @@ Community groups (sometimes called small groups or life groups) are gatherings o
 **Example format:**
 
 **Tuesday Evening Study Group**
+
 - When: Tuesdays, 7:00-8:30 PM
 - Where: [Location or "rotating homes"]
 - Focus: [Bible study, book discussion, etc.]
 - Contact: [Name, email]
 
 **Thursday Morning Parents Group**
+
 - When: Thursdays, 9:30-11:00 AM
 - Where: [Location]
 - Focus: Parenting, faith, mutual support
@@ -43,6 +43,7 @@ Community groups (sometimes called small groups or life groups) are gatherings o
 - Contact: [Name, email]
 
 **Sunday Afternoon Young Adults**
+
 - When: 2nd and 4th Sundays, 3:00 PM
 - Where: [Location]
 - Focus: Faith and life in your 20s-30s
@@ -91,6 +92,7 @@ Feel called to lead a community group? We'd love to support you! Group leaders r
 **Format:**
 
 While each group is unique, most follow a similar pattern:
+
 1. Gathering and fellowship (15-20 min)
 2. Prayer or opening activity (5-10 min)
 3. Discussion/study (30-45 min)

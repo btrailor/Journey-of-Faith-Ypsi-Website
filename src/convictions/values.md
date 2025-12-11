@@ -4,8 +4,6 @@ title: The Values We Pursue
 permalink: /convictions/values/
 ---
 
-## The Values We Pursue
-
 These core values guide how we relate to God, one another, and our community.
 
 ---

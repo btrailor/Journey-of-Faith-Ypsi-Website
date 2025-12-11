@@ -4,8 +4,6 @@ title: The Vision We Share
 permalink: /convictions/vision/
 ---
 
-## The Vision We Share
-
 ### Rooted in the Biblical Story
 
 [Explain how you understand and engage with Scripture as the foundation of your faith]

@@ -3,17 +3,16 @@ layout: page
 title: About Journey of Faith
 permalink: /about/
 ---
-## About Journey of Faith
 
-Welcome to Journey of Faith! We are committed to love and nurture **Christ in ALL**, offer **Communion for ALL**, and **Connecting with ALL** as we pursue a vision of God's transformative, diverse, barrier-breaking community in Ypsilanti, MI. 
+Welcome to Journey of Faith! We are committed to love and nurture **Christ in ALL**, offer **Communion for ALL**, and **Connecting with ALL** as we pursue a vision of God's transformative, diverse, barrier-breaking community in Ypsilanti, MI.
 
 ### Quick Links
 
-* [History & Denomination](/about/history/)
-* [Leadership](/about/leadership/)
-* [FAQ](/about/faq/)
-* [Drinks with the Pastor](/about/drinks-with-pastor/)
-* [Contact Us](/about/contact/)
+- [History & Denomination](/about/history/)
+- [Leadership](/about/leadership/)
+- [FAQ](/about/faq/)
+- [Drinks with the Pastor](/about/drinks-with-pastor/)
+- [Contact Us](/about/contact/)
 
 ### Who We Are
 

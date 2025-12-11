@@ -4,8 +4,6 @@ title: Story Circles
 permalink: /community/story-circles/
 ---
 
-## Story Circles
-
 Story Circles are gatherings where we share our stories and listen deeply to one another, building empathy, understanding, and connection.
 
 ---
@@ -65,6 +63,7 @@ In a world of quick judgments and shallow interactions, Story Circles create spa
 **Example:**
 
 **Monthly Story Circle**
+
 - When: First Thursday of each month, 7:00-8:30 PM
 - Where: [Location]
 - Who: Open to all
@@ -87,6 +86,7 @@ We also host one-time Story Circles around specific themes or in response to com
 Interested in hosting a Story Circle in your home or for your community group?
 
 We can provide:
+
 - Facilitation training
 - Question prompts and themes
 - Guidelines and best practices

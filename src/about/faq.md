@@ -4,8 +4,6 @@ title: Frequently Asked Questions
 permalink: /about/faq/
 ---
 
-## Frequently Asked Questions
-
 ### General Questions
 
 **What should I expect when I visit?**

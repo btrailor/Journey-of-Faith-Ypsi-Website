@@ -4,8 +4,6 @@ title: Drinks with the Pastor
 permalink: /about/drinks-with-pastor/
 ---
 
-## Drinks with the Pastor
-
 ### Coffee, Tea, Beer... Just No Shots Please!
 
 Got questions? Want to connect? Curious about faith? Pastor [Name] would love to meet you over drinks!
@@ -32,6 +30,7 @@ Email [pastor email] to set up a time to meet at a local coffee shop, brewery, o
 
 **Option 2: Join Us at Regular Times**
 [If you have regular "office hours" at a coffee shop, list them here]
+
 - When: [Day/Time]
 - Where: [Location]
 - Just show up! No RSVP needed.

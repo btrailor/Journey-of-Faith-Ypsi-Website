@@ -4,8 +4,6 @@ title: Leadership
 permalink: /about/leadership/
 ---
 
-## Leadership
-
 ### Pastor
 
 **[Pastor Name]**

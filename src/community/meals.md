@@ -4,8 +4,6 @@ title: Community Meals
 permalink: /community/meals/
 ---
 
-## Community Meals
-
 Sharing meals is a sacred practice. At Journey of Faith, we gather around tables to break bread, build relationships, and practice the hospitality of Jesus.
 
 ---
@@ -19,6 +17,7 @@ In Scripture, some of the most important moments happen around a table:
 - The kingdom of God is described as a great banquet
 
 When we eat together, we:
+
 - Build relationships across differences
 - Practice hospitality and welcome
 - Slow down and be present with one another
@@ -30,6 +29,7 @@ When we eat together, we:
 ### Our Community Meals
 
 **Weekly Fellowship Meal**
+
 - When: Sundays after worship
 - Where: Fellowship Hall
 - What: Simple meal, usually soup/salad or potluck
@@ -37,6 +37,7 @@ When we eat together, we:
 - Who: Everyone is welcome!
 
 **Monthly Community Dinner**
+
 - When: [Date and time]
 - Where: [Location]
 - What: [Description - sit-down dinner, potluck, themed meal]
@@ -44,6 +45,7 @@ When we eat together, we:
 - Who: Open to the community
 
 **Special Occasion Meals**
+
 - Holiday meals (Thanksgiving, Christmas, Easter)
 - Celebration dinners
 - Seasonal gatherings
@@ -57,21 +59,25 @@ When we eat together, we:
 Our community meals are guided by these values:
 
 **Radical Welcome**
+
 - All are welcome, no exceptions
 - Come as you are
 - No one is turned away for lack of funds
 
 **Generous Hospitality**
+
 - We share what we have freely
 - Make space for newcomers
 - Introduce yourself to someone new
 
 **Intentional Connection**
+
 - Put away phones during the meal
 - Engage in conversation with those around you
 - Practice the art of listening
 
 **Gratitude**
+
 - Give thanks for the food and those who prepared it
 - Recognize this meal as a gift from God
 
@@ -80,17 +86,20 @@ Our community meals are guided by these values:
 ### How to Participate
 
 **Attend**
+
 - Just show up! Most meals are drop-in, no RSVP needed
 - Bring friends, family, neighbors
 - Come hungry for both food and connection
 
 **Contribute**
+
 - Bring a dish to share for potlucks
 - Give a free-will donation to offset costs
 - Help set up or clean up
 - Use your gifts (cooking, hospitality, organizing)
 
 **Host**
+
 - Interested in hosting a meal in your home?
 - Want to organize a special meal at church?
 - Have a cultural food tradition to share?

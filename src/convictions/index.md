@@ -4,8 +4,6 @@ title: Our Convictions
 permalink: /convictions/
 ---
 
-## Our Convictions
-
 At Journey of Faith, our convictions shape who we are and how we live together as a community.
 
 ### Explore Our Convictions
