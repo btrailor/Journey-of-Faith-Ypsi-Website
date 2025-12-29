@@ -3,10 +3,7 @@ layout: page
 title: Drinks with the Pastor
 permalink: /about/drinks-with-pastor/
 ---
-
-### Coffee, Tea, Beer... Just No Shots Please!
-
-Got questions? Want to connect? Curious about faith? Pastor [Name] would love to meet you over drinks!
+Got questions? Want to connect? Curious about faith? Pastor Sarah Lynne would love to take you out for a drink and get to know you more.
 
 ### What Is This?
 
@@ -14,40 +11,25 @@ Drinks with the Pastor is an informal, low-pressure opportunity to connect with 
 
 ### Topics We Can Discuss
 
-- Questions about faith, God, Jesus, the Bible
-- Journey of Faith and what we're about
-- Life, struggles, celebrations
-- Theology and hard questions
-- How to get connected at Journey of Faith
-- Literally anything else on your mind
+* Questions about faith, God, Jesus, the Bible
+* Journey of Faith and what we're about
+* Life, struggles, celebrations
+* Theology and hard questions
+* How to get connected at Journey of Faith
+* Literally anything else on your mind that relates to following Jesus or Journey of Faith
 
-No topic is off limits, and there's no pressure to have it all figured out.
+No topic is off limits, and there's no pressure to have it all figured out. 
 
 ### How to Connect
 
-**Option 1: Schedule a Time**
-Email [pastor email] to set up a time to meet at a local coffee shop, brewery, or tea house.
-
-**Option 2: Join Us at Regular Times**
-[If you have regular "office hours" at a coffee shop, list them here]
-
-- When: [Day/Time]
-- Where: [Location]
-- Just show up! No RSVP needed.
+**Email** [pastorsarahlynne@gmail.com](mailto:pastorsarahlynne@gmail.com) or **text** (734) 829-8357 letting her know you would like to grab a drink and chat. Send her 3 times you are available to meet and she will schedule a time. 
 
 ### What to Expect
 
-- Casual conversation in a public setting
-- Your choice of beverage (coffee, tea, beer, soda, etc.)
-- 30-60 minutes, or as long as you'd like
-- Zero judgment, total confidentiality
-- No sales pitch or agenda
-
-### Ground Rules
-
-- All beverages welcome (except shots - let's keep it classy!)
-- Come as you are
-- Ask anything
-- No question is too simple or too complex
+* Casual conversation in a public setting
+* Your choice of beverage (coffee, tea, beer, soda, etc… just no shots, please!)
+* 60-90 minutes
+* Zero judgment, total confidentiality
+* A safe place to ask questions, explore faith, and seek truth… even when we don’t have all the answers
 
 Looking forward to connecting with you!
