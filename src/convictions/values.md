@@ -3,80 +3,60 @@ layout: page
 title: The Values We Pursue
 permalink: /convictions/values/
 ---
-
 These core values guide how we relate to God, one another, and our community.
 
----
+- - -
 
-### Transformative Love
+### *Above all else:* Transformative Love
 
-**Love that changes everything**
+Journey of Faith’s values are always guided by **Transformative Love:** *embodying a profound, Christ-like love that inspires positive change in individuals, our community, and the world.*
 
-We believe in a love that transforms lives. This isn't passive or sentimental love, but the radical, self-giving love of Jesus that breaks down barriers, heals wounds, and creates new possibilities.
+Love always advocates for a person’s well-being and develops affection for the unique person God created them to be. Journey of Faith values a lot of things: \
+\
+diversity and unity, \
+studying scripture and honoring our personal experiences, \
+mutual caring for each other and encouraging personal responsibility, \
+expressing faith and sharing doubts, \
+proclaiming the gospel boldly and respecting people of other faiths and beliefs
 
-We pursue:
-- Loving God with all our heart, soul, mind, and strength
-- Loving our neighbors as ourselves
-- Extending love even to those who are difficult to love
-- Allowing God's love to transform us from the inside out
+…to name a few. \
+\
+These values can create tensions. We seek to navigate those tensions by always prioritizing *loving* the person or people we are engaging: seeking to understand one another, considering each other’s well-being, developing affection for one another, and encouraging everyone to work for the good of others. \
+\
+Below is a (not nearly exhaustive) list of some other values we share (in no particular order), but **transformative love** is always the measure. 
 
----
+- - -
 
 ### Inclusivity
 
 **All are welcome, all belong**
 
-Following Jesus' example of radical hospitality, we strive to be a community where everyone is welcomed, valued, and belongs - regardless of background, identity, or where they are on their faith journey.
+Following Jesus' example of radical hospitality, we strive to be a community where everyone is welcomed, valued, and belongs - regardless of background, gender-identity, sexual orientation, ability, or where they are on their faith journey. We seek to grow in welcoming others and fostering belonging. 
 
-We pursue:
-- Creating space for all people to encounter God
-- Celebrating the diversity of God's image in humanity
-- Breaking down barriers that divide
-- Listening to and learning from those whose experiences differ from our own
-
----
+- - -
 
 ### Curiosity
 
 **Questions welcome, wonder encouraged**
 
-We believe faith and questions are not enemies. God invites us to engage our minds fully, to ask hard questions, and to explore the mysteries of faith with wonder and humility.
+We believe faith and questions are not enemies. God invites us to engage our minds fully, to ask hard questions, earnestly seek new insights, and to explore the mysteries of faith with wonder and humility. We hope that you will find Journey of Faith to be a safe place for your questions and your reflections as you walk this journey of faith. 
 
-We pursue:
-- Honest questioning and intellectual engagement with faith
-- Learning from diverse perspectives and traditions
-- Growth through exploration and discovery
-- A faith that is thoughtful, not thoughtless
-
----
+- - -
 
 ### Humility
 
 **We don't have all the answers**
 
-We recognize our own limitations and the danger of thinking we have everything figured out. Humility opens us to learn from others and to be transformed by God's Spirit.
+We recognize our own limitations and the danger of thinking we have everything figured out. Humility isn't self-flagellation or false modestly. It is recognizing that we see "through a glass darkly" and need each other's experiences and insight. We encourage congregants to practice listening well, acknowledge what we don't know, and admit when we are wrong. Humility opens us to learn from others and to be transformed by God's Spirit.
 
-We pursue:
-- Recognizing we see "through a glass darkly"
-- Listening before speaking
-- Admitting when we're wrong
-- Valuing wisdom from unexpected places
-- Depending on God rather than our own understanding
-
----
+- - -
 
 ### Creativity
 
 **Made in the image of the Creator**
 
-We believe creativity reflects the image of God in us. We embrace innovation, artistry, and fresh expressions of faith as we seek to faithfully follow Jesus in our time and place.
+We believe creativity reflects the image of God in us. We embrace innovation, artistry, and fresh expressions of faith as we seek to faithfully follow Jesus in our time and place. We know that God can connect with us in various ways, so we love expressions of worship that engage our whole bodies: our sight, our voices and ears, our hands and our feet. We seek to do ministry in creative, new ways, so bring your ideas and unique voice! 
 
-We pursue:
-- Worship that engages the whole person
-- New ways of doing ministry that serve our context
-- The arts as a means of encountering the divine
-- Innovation in how we live out our mission
+- - -
 
----
-
-These values aren't just words on a page - they shape our decisions, our relationships, and our ministry. We won't always live them perfectly, but they represent the kind of community we're committed to becoming.
+These values aren't just words on a page - they shape our decisions, our relationships, and our ministry. We won't always live them perfectly, but we seek to grow in our love for each other and God through pursuing these values.
