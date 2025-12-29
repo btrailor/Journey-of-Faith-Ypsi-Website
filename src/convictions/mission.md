@@ -3,108 +3,32 @@ layout: page
 title: The Mission We Do
 permalink: /convictions/mission/
 ---
+Journey of Faith is *developing a community of disciples of Jesus Christ who, in partnership with others, actively engage in social justice, mutual support, and spiritual development.*
 
-Our mission is lived out through three interconnected practices, each reflecting a core aspect of following Jesus:
+We sum this mission up with three short statements: *“Christ in All. Communion for All. Connecting with All.”*
 
----
+- - -
 
 ## "Christ in All" - Spiritual Formation
 
 **Growing as disciples of Jesus**
 
-We believe spiritual formation is a lifelong journey of becoming more like Christ. This happens through intentional practices and relationships that help us encounter God and grow in faith.
-
-### Our Practices:
-
-**Mentoring**
-
-- One-on-one spiritual direction and discipleship relationships
-- Pairing seekers with mature believers for guidance on the faith journey
-- Intergenerational mentoring that builds wisdom and connection
-
-**Community Groups**
-
-- Small groups for deeper relationships and spiritual growth
-- Bible study, prayer, and mutual encouragement
-- Contexts for wrestling with faith questions together
-
-**Worship**
-
-- Weekly gatherings centered on encountering God
-- Practices of prayer, Scripture, communion, and song
-- Creating space for the Holy Spirit to move
+We believe spiritual formation is a lifelong journey of becoming more like Christ, and learning to see and love that of *Christ in all*. Spiritual development happens in worship, in social justice work, in personal spiritual practices, and learning from one another in our community groups
 
 [Learn more about our community groups →](/community/groups/)
 
----
+- - -
 
 ## "Communion for All" - Mutual Care
 
-**Sharing joys and burdens together**
+**Sharing joys and burdens with one another**
 
-Following Jesus means bearing one another's burdens and celebrating together. We are committed to being a community that truly cares for one another.
+We always offer *communion for all*. We remember that on the night Jesus was betrayed, Jesus was willing to welcome the disciple who betrayed him at the communion table. This reminds us that we are called to welcome and care for all. This begins at the table as we remember Christ’s courageous, self-giving love and commit to **mutually supporting** those who gather for the bread and cup that nourishes both body and spirit. We also seek to extend the mutual care we experience at the table into the world through our social justice work. [](/community/)
 
-### Our Practices:
-
-**Sharing Joys and Burdens**
-
-- Creating space in worship and community to share what's happening in our lives
-- Praying for and supporting one another in times of need
-- Celebrating milestones and answered prayers together
-
-**Story Circles**
-
-- Gatherings where we share our stories and listen deeply
-- Building empathy and understanding through narrative
-- Recognizing God's work in one another's lives
-
-**Community Meals**
-
-- Shared meals that build relationships and practice hospitality
-- Breaking bread together as Jesus did
-- Creating space for connection across differences
-
-[Learn more about our community practices →](/community/)
-
----
+- - -
 
 ## "Connecting with All" - Social Justice
 
 **Partnering for justice in our community**
 
-We believe the Gospel calls us to work for justice, particularly on behalf of those who are marginalized or vulnerable. We partner with local organizations to address real needs in our community.
-
-### Our Focus Areas:
-
-**Poverty**
-
-- Partnering with organizations addressing economic inequality
-- Supporting those experiencing housing and food insecurity
-- Advocating for systemic change
-
-**Elder Care**
-
-- Ministry with and for elderly members of our community
-- Addressing isolation and practical needs
-- Honoring the wisdom and dignity of our elders
-
-### Our Partners:
-
-- [A Servant's Heart](/mission/servants-heart/) - [Brief description]
-- [Alpha House](/mission/alpha-house/) - [Brief description]
-- [Ministry for Housing Insecure](/mission/housing/) - [Brief description]
-- [Ministry for the Elderly](/mission/elderly/) - [Brief description]
-
-[Learn more about our mission partnerships →](/mission/)
-
----
-
-## Living the Mission
-
-These three strands - spiritual formation, mutual care, and social justice - are woven together in the life of Journey of Faith. We believe authentic discipleship includes all three:
-
-- We can't grow spiritually without caring for others
-- We can't truly care for our community without working for justice
-- We can't pursue justice without being rooted in Christ
-
-This holistic approach to mission reflects our conviction that God's kingdom touches every aspect of life.
+We believe the Gospel calls us to work for justice, particularly on behalf of those who are marginalized or vulnerable. We believe that **social justice** is best done by *connecting with all*. We don’t try to solve other people’s problems. We aren’t anyone’s savior! We seek to work with and support the organizations that have already gained trust in the community (like [FedUp,](https://fedupministries.org/) [Peace House Ypsi,](https://peacehouseypsi.org/) and [Alpha House](https://www.alphahouse-ihn.org/)) and connect with grassroots organizers that are working for their own community’s well-being (like community groups in West Willow and the Homelessness Solidarity Network). The non-profit we started,[ A Servant’s Heart,](https://aservantsheart.community/) provides backbone support for grassroots community organizations through grant-writing and other behind the scenes work. [](/mission/)
