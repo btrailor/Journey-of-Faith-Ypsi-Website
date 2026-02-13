@@ -7,7 +7,7 @@ Got questions? Want to connect? Curious about faith? Pastor Sarah Lynne would lo
 
 ### What Is This?
 
-Drinks with the Pastor is an informal, low-pressure opportunity to connect with our pastor in a relaxed setting. Whether you're exploring faith for the first time, new to Journey of Faith, or a longtime member, you're welcome to grab a drink and have a conversation.
+Drinks with the Pastor is an informal, low-pressure opportunity to connect with our pastor in a relaxed setting. If you're exploring faith for the first time or new to Journey of Faith, you're welcome to grab a drink and have a conversation.
 
 ### Topics We Can Discuss
 
