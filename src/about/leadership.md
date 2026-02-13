@@ -15,8 +15,7 @@ Sarah Lynne met her husband Brett in Minneapolis. Later they and their two child
 
 After accepting a call as First Christian Church Bloomington’s Associate Pastor, Brett and Sarah Lynne left the Bloomington Catholic Worker and began focusing on church ministry. She oversaw the formation of a weekly free community meal that provided nourishment for over 100 people each week. She also oversaw the formation of an emergency winter shelter hosted by multiple churches and run entirely by volunteers. On dangerously cold nights, this shelter provides a warm bed for people who can’t (or won’t) use the year-around shelters. 
 
-Sarah Lynne and Journey of Faith share a vision for justice, a desire to work with grassroots organizations, and a commitment to ministry with marginalized people–especially as it relates to poverty, racism, LGBTQ+ identities, mental health, and homelessness. She was delighted when she was called as the minister to Journey of Faith (beginning on Sept, 2025) as they replant in eastern Ypsi. 
-
+Sarah Lynne and Journey of Faith share a vision for justice, a desire to work with grassroots organizations, and a commitment to ministry with marginalized people–especially as it relates to poverty, racism, LGBTQ+ identities, mental health, and homelessness. She was delighted when she was called as the minister to Journey of Faith (beginning on Sept, 2025) as they replant in Ypsilanti. 
 
 Email: PastorSarahLynne@gmail.com
 
@@ -64,8 +63,6 @@ And, for those of us sitting in the pews or chairs — music is one of the most 
 **You can reach Dave at:  jofdisciples@gmail.com**
 
 *"Maybe it’s why there’s an ancient proverb that says, “To sing is to pray twice.”."  —Dave*
-
-
 
 **Jason Gong** is an international pianist and cellist from Michigan. He received his Masters in Piano Performance at the Guildhall School of Music and Drama in London, United Kingdom studying under Prof. Noriko Ogawa and Prof. Paul Roberts and his Bachelors of Music in Piano Performance from the University of Michigan studying under Dr. Louis Nagel. 
 
