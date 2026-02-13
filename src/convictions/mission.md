@@ -13,9 +13,7 @@ We sum this mission up with three short statements: *“Christ in All. Communion
 
 **Growing as disciples of Jesus**
 
-We believe spiritual formation is a lifelong journey of becoming more like Christ, and learning to see and love that of *Christ in all*. Spiritual development happens in worship, in social justice work, in personal spiritual practices, and learning from one another in our community groups
-
-[Learn more about our community groups →](/community/groups/)
+We believe spiritual formation is a lifelong journey of becoming more like Christ, and learning to see and love that of *Christ in all*. **Spiritual development** happens in worship, in social justice work, in personal spiritual practices, and learning from one another in our community groups. [](/community/groups/)
 
 - - -
 
