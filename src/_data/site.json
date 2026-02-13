@@ -1,13 +1,13 @@
 {
-  "name": "Journey of Faith",
-  "tagline": "Christ in all. Communion for all. Connecting with all.",
-  "description": "A welcoming community rooted in the Biblical story, living towards God's kingdom",
-  "logo": "/images/logo.png",
-  "version": "20241116",
-  "worshipDay": "Sundays",
   "worshipTime": "10:00 AM",
-  "address": "123 Main Street, Ypsilanti, MI 48198",
-  "phone": "(555) 123-4567",
+  "worshipDay": "Sundays",
+  "logo": "/images/logo.png",
+  "name": "Journey of Faith",
+  "phone": "(734) 829-8357",
+  "tagline": "Christ in all. Communion for all. Connecting with all.",
+  "address": "2310 Packard Rd. Ypsilanti, MI",
+  "currentYear": "2025",
+  "version": "20241116",
   "email": "pastorsarahlynne@gmail.com",
-  "currentYear": "2025"
+  "description": "A church committed to love and nurture Christ in ALL, offer Communion for ALL, and Connect with ALL as we pursue a vision of God's transformative, barrier-breaking community."
 }
