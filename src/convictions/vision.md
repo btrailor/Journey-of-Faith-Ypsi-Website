@@ -3,7 +3,7 @@ layout: page
 title: The Vision We Share
 permalink: /convictions/vision/
 ---
-### **Our Vision:** *to become a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.* 
+### **Our Vision:** *to become a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.*
 
 ### Our Vision is Rooted in the Biblical Story
 
@@ -11,12 +11,16 @@ The Bible tells the ongoing story of God's love for creation and God's work to r
 
 - - -
 
-### Our vision expresses Faith in the Gospel as We Live Towards God's Kin(g)dom*
+### Our Vision Expresses Faith in the Gospel as We Live Towards God's Kin(g)dom*
 
-The good news of Jesus Christ is at the center of our faith. Jesus preached good news to the poor, liberation for the prisoner, healing for the sick, and justice for the oppressed. He assured us that God’s kingdom can be experienced now, among us, even as we wait for the justice and love of God’s kingdom to come in fullness. Jesus preached and lived in pursuit of that kingdom’s peace, love, and justice, even unto the cross. Jesus’ suffering and death demonstrated his courageous love for us. His resurrection shows us that in Christ, suffering and death do not have the last word, and *nothing* can separate us from the love of God. We are not only called to believe in Jesus, we are called to follow him. Our faith is demonstrated and strengthened by a commitment to follow Jesus' teachings: by hoping that God will bring about the good news Jesus preached, by trusting that life will always overcome death, and by learning to love one another the way Jesus loved us. Through Jesus' life, teachings, death, and resurrection, God has made a way for us to be reconciled to God and to one another. It has reminded us that God is always ready to forgive us, is working for our well-being, and has assured us that God’s love will ultimately prevail. That is good news indeed!
+The good news of Jesus Christ is at the center of our faith. Jesus preached good news to the poor, liberation for the prisoner, healing for the sick, and justice for the oppressed. He assured us that God’s kingdom can be experienced now, among us, even as we wait for the justice and love of God’s kingdom to come in fullness. Jesus preached and lived in pursuit of that kingdom’s peace, love, and justice, even unto the cross. Jesus’ suffering and death demonstrated his courageous love for us. His resurrection shows us that in Christ, suffering and death do not have the last word, and *nothing* can separate us from the love of God. We are not only called to believe in Jesus, we are called to follow him. Our faith is demonstrated and strengthened by a commitment to follow Jesus' teachings: by hoping that God will bring about the good news Jesus preached, by trusting that life will always overcome death, and by learning to love one another the way Jesus loves us. Through Jesus' life, teachings, death, and resurrection, God has made a way for us to be reconciled to God and to one another. It has reminded us that God is always ready to forgive us, is working for our well-being, and has assured us that God’s love will ultimately prevail. That is good news indeed!
 
 - - -
 
 ### Our Vision Calls Us to Be a Little Outpost of God’s Kin(g)dom
 
 Journey of Faith has been given a vision of *a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.* Our church is interracial, intergenerational, and has a long history of working for justice in Washtenaw County, especially around areas of poverty and homelessness. We want to continue that work! We have a vision for a church that offers hospitality to families in need and builds intergenerational community that empowers youth and cares for the elderly. We are currently discerning how a new building might be help us grow our ministry. We hope you catch that vision and join us in this transformative, life-giving work!
+
+\
+\
+**\*Kingdom or Kin(g)dom?** [](https://www.google.com/search?sca_esv=109ab09de071e349&sxsrf=ANbL-n5R985tXSr7YrOOpju2fUPVO9B97g%3A1770992822861&q=%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CE%AF%CE%B1&sa=X&ved=2ahUKEwjm2Oyw1taSAxVd_8kDHWYyCV8QxccNegQIIBAB&mstk=AUtExfCYOBbaSsChbGG36Pu66P9OcHNJ9A5RNrKXTMsQFNlcb3bJ7vhvs7Fql4nnvYP971DzSBmtdZFa6SpSEqndLkmJLmW2oDzrPo7-v2mLTsIznQQVsA93pU0GpA6ZK54WuRA&csui=3)*Basileia*, the word in the Bible often translated as "kingdom," refers to God's *realm* of authority. It isn't defined by a specific place or time, but by the faithfulness of the people of God to God's guidance, that we might become a people who embody God's justice, peace, and compassion. That community, which transcends time and place, are the collective family of God. We believe *all people* are called to that family. Both families and kingdoms in this world are fallen and can do great harm. What defines God's kin(g)dom is not the structure of authority (in a "family" or "nation"). Instead the "realm" is defined by God's vision for beloved community and the faithful participation of those who catch that vision.
