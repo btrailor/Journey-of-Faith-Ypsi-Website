@@ -3,40 +3,27 @@ layout: page
 title: Contact Us
 permalink: /about/contact/
 ---
-
 We'd love to hear from you!
 
 ### Worship With Us
 
-**{{ site.worshipDay }} at {{ site.worshipTime }}**
+**Sundays at 10 am**
 
-{{ site.address }}
+2310 Packard Rd. Ypsilanti, MI 
 
 ### Get in Touch
 
-**Email:** {{ site.email }}
+**Email:** jofdisciples@gmail.com
 
-**Phone:** {{ site.phone }}
-
-### Office Hours
-
-[Add office hours if applicable]
+**Phone:** (734) 829-8357  (text or call)
 
 ### Connect on Social Media
 
-[Add social media links]
+https://www.instagram.com/jofdisciples/
 
-### Send Us a Message
+https://www.facebook.com/JourneyofFaithCC
 
-[You can add a contact form here in the future, or direct people to email]
-
-For now, please reach out via email or phone, and we'll get back to you as soon as possible!
-
-### Get Directions
-
-[Add Google Maps embed or link here]
-
----
+- - -
 
 ### Want to Connect Personally?
 
