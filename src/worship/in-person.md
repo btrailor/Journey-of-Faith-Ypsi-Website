@@ -22,13 +22,11 @@ Ypsilanti, MI
 
 ### Parking
 
-We have a parking lot, so parking is free and easy. 
+We have a parking lot, so parking is free and easy. Overflow parking is in Packard Family Dentistry's lot (after 5 pm and on weekends). 
 
-The best way to enter the building is through the back door, at the top of the ramp. That goes straight into the back of our worship space!
+The easiest way to enter the building is through the back door, at the top of the ramp. That goes straight into the back of our worship space!
 
-If it’s easy for you to walk, please park closer to the front of the lot (near where you enter off Packard). 
-
-There are three handicap spots at the back of the lot near the ramp. 
+If you have no problem walking, please park closer to the front of the lot (near where you enter off Packard). You can enter through the front of the building, head up the stairs, and enter the door on the left.  
 
 - - -
 
@@ -42,7 +40,7 @@ Most people wear casual, everyday clothing to worship at Journey of Faith, so yo
 
 **All ages are welcome in worship!**
 
-We do not have a separate program during worship for our kids. We want children to feel welcome and included in our worship. Our children are invited to read the scripture and call to worship, and help serve communion. We always provide an area for kids to keep their hands busy and are continually learning how to practice biblical story-telling and providing teaching in worship that connects with people of all ages.
+We do not have a separate program during worship for our kids. We want children to feel welcome and included in our worship. Our children are invited to read the scripture and call to worship, and help serve communion. We always provide an area for kids to keep their hands busy and are continually learning how to practice biblical story-telling and provide teaching in worship that connects with people of all ages.
 
 We believe children belong in worship and expect them to make joyful noise! Don't worry if your little one is restless - we're glad you're here.
 
@@ -76,9 +74,9 @@ After worship, we gather for coffee, tea, and conversation. We hope you stay to 
 
 When you arrive:
 
-1. Greeters will welcome you at the door
-2. Pick up a bulletin with the order of worship
-3. Find a seat anywhere - there are no assigned seats!
+1. Pick up a bulletin with the order of worship
+2. Find a seat anywhere - there are no assigned seats!
+3. Expect someone to greet you, whether right when you walk in or during the passing of Christ’s peace
 4. Feel free to participate as much or as little as you're comfortable with
 
 Don't worry about knowing when to stand, sit, or what to say. Just follow along and participate at your comfort level.
