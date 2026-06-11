@@ -1,0 +1,33 @@
+<footer class="bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h5>{{ site.name }}</h5>
+        <p>{{ site.tagline }}</p>
+        <p class="small">{{ site.description }}</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>Contact</h5>
+        <p>
+          <i class="bi bi-geo-alt"></i> {{ site.address }}<br>
+          <i class="bi bi-telephone"></i> {{ site.phone }}<br>
+          <i class="bi bi-envelope"></i> {{ site.email }}
+        </p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="/worship/in-person/" class="text-white-50">Visit Us</a></li>
+          <li><a href="/about/contact/" class="text-white-50">Contact</a></li>
+          <li><a href="/give/" class="text-white-50">Give</a></li>
+          <li><a href="/about/faq/" class="text-white-50">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center pt-3 border-top border-secondary">
+        <p class="mb-0">&copy; {{ site.currentYear }} {{ site.name }}. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,353 @@
+---
+layout: base
+title: Home
+---
+
+<!-- Hero Section - Formula 1 Style -->
+<section class="hero-pro">
+  <div class="hero-bg">
+    <div class="video-carousel">
+      <video class="active" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture style="pointer-events: none;">
+        <source src="/videos/JOFHeroVideo.mp4?v=3" type="video/mp4">
+        <source src="/videos/test-video.mp4?v=3" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-text-block">
+      <h1 class="hero-headline">Welcome to<br>Journey of Faith</h1>
+      <p>Developing a transformative, barrier-breaking community of disciples of Christ</p>
+    </div>
+    <div class="hero-card">
+      <span class="label">Join Us This Sunday</span>
+      <h3>You Belong Here</h3>
+      <p>Whether you're exploring faith for the first time, returning after time away, or seeking a community committed to justice and inclusivity — there's a place for you.</p>
+      <div class="hero-buttons">
+        <a href="/worship/in-person/" class="btn btn-primary-pro">Plan Your Visit</a>
+        <a href="/worship/online/" class="btn btn-secondary-pro">Watch Online</a>
+        <a href="/about/drinks-with-pastor/" class="btn btn-secondary-pro">Drinks with the Pastor</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Three Pillars Section -->
+<section class="section-pro" style="background: white;">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="label">Our Foundation</span>
+      <h2>Rooted in Three Core Values: Love in God's Love for All</h2>
+    </div>
+    <div class="three-pillars-grid">
+      <div class="pillar-card">
+        <div class="pillar-icon-wrapper">
+          <img src="/images/Cross.png" alt="Cross" class="pillar-icon">
+        </div>
+        <h3>Christ in All</h3>
+        <p>A vision for a diverse, barrier-breaking community, transformed by the love of Christ</p>
+        <a href="/convictions/vision/" class="btn btn-secondary-pro btn-sm">Our Vision</a>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon-wrapper">
+          <img src="/images/Chalice.png" alt="Chalice" class="pillar-icon">
+        </div>
+        <h3>Communion for All</h3>
+        <p>A place where all belong and all are cherished, we welcome each other as Christ welcomes us</p>
+        <a href="/convictions/values/" class="btn btn-secondary-pro btn-sm">Our Values</a>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon-wrapper">
+          <img src="/images/Tree.png" alt="Tree with Birds" class="pillar-icon">
+        </div>
+        <h3>Connecting with All</h3>
+        <p>A mission of discipleship through spiritual formation, mutual support, and social justice</p>
+        <a href="/convictions/mission/" class="btn btn-secondary-pro btn-sm">Our Mission</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="section-pro about-section-pro">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-content">
+        <span class="label">Who We Are</span>
+        <h2>You Belong Here</h2>
+        <p>At Journey of Faith, we believe faith is a journey, not a destination. We're a welcoming community where questions are celebrated, diversity is embraced, and all are invited to experience God's transformative love.</p>
+        <p>Whether you're exploring faith for the first time, returning after time away, or seeking a community committed to justice and inclusivity — there's a place for you.</p>
+        <a href="/about/" class="btn btn-light-pro">Learn More</a>
+      </div>
+      <div class="about-links-col">
+        <p class="about-tagline">A small church with a long history and big dreams.</p>
+        <ul class="about-links-list">
+          <li><a href="/about/">Who We Are</a></li>
+          <li><a href="/about/history/">History</a></li>
+          <li><a href="/about/leadership/">Staff &amp; Leadership</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Plan Your Visit Section -->
+<section class="section-pro visit-section-pro">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="label">Plan Your Visit</span>
+      <h2>What to Expect on Sunday</h2>
+      <p>We'd love to meet you. Here's everything you need to know for your first visit.</p>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-main">
+        <div class="visit-image">
+          <img src="/images/congregation/IMG_7904.jpg" alt="Sunday Worship at Journey of Faith" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="visit-details">
+          <h3>Sunday Morning Worship</h3>
+          <ul class="visit-info-list">
+            <li>
+              <svg class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <div>
+                <strong>Service Time</strong><br>
+                Sundays at {{ site.worshipTime }}
+              </div>
+            </li>
+            <li>
+              <svg class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <strong>Location</strong><br>
+                {{ site.address }}
+              </div>
+            </li>
+            <li>
+              <svg class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              <div>
+                <strong>What to Wear</strong><br>
+                Come as you are. We dress casually.
+              </div>
+            </li>
+          </ul>
+          <a href="/worship/in-person/" class="btn btn-primary-pro">Get Directions</a>
+        </div>
+      </div>
+      <div class="visit-sidebar">
+        <div class="visit-card">
+          <h4>🧒 Children Welcome</h4>
+          <p>Kids are welcome in worship, and we offer programming for children and youth.</p>
+        </div>
+        <div class="visit-card">
+          <h4>☕ Connect After Service</h4>
+          <p>Stay for coffee and conversation. We'd love to get to know you.</p>
+        </div>
+        <div class="visit-card">
+          <h4>🅿️ Parking</h4>
+          <p>Free parking available in our lot and on the street.</p>
+        </div>
+        <div class="visit-card">
+          <h4>♿ Accessibility</h4>
+          <p>Our building is wheelchair accessible with accessible restrooms.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# <!-- Recent Sermons Section — hidden until fully fleshed out -->
+<section class="section-pro" style="background: white;">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="label">Messages</span>
+      <h2>Recent Sermons</h2>
+      <p>Catch up on recent teachings and messages from our community.</p>
+    </div>
+    <div class="sermons-grid">
+      {% for sermon in collections.sermons | reverse | limit(3) %}
+      <div class="sermon-card-pro">
+        <div class="sermon-date">
+          <span class="day">{{ sermon.data.date | dateDay }}</span>
+          <span class="month">{{ sermon.data.date | dateMonth }}</span>
+        </div>
+        <div class="sermon-content">
+          <h3>{{ sermon.data.title }}</h3>
+          {% if sermon.data.scripture %}
+          <p class="sermon-scripture">{{ sermon.data.scripture }}</p>
+          {% endif %}
+          <p class="sermon-pastor">{{ sermon.data.pastor }}</p>
+          <div class="sermon-actions">
+            {% if sermon.data.audioUrl %}
+            <a href="{{ sermon.data.audioUrl }}" class="sermon-link" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+              Listen
+            </a>
+            {% endif %}
+            {% if sermon.data.videoUrl %}
+            <a href="{{ sermon.data.videoUrl }}" class="sermon-link" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Watch
+            </a>
+            {% endif %}
+            <a href="{{ sermon.url }}" class="sermon-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+                <polyline points="14,2 14,8 20,8"></polyline>
+              </svg>
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div class="sermon-card-pro">
+        <div class="sermon-content">
+          <h3>Check Back Soon</h3>
+          <p>New sermons will be posted here regularly.</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/sermons/" class="btn btn-primary-pro">View All Sermons</a>
+    </div>
+  </div>
+</section> #}
+
+{# <!-- Next Steps / Get Connected Section — hidden until fully fleshed out -->
+<section class="section-pro next-steps-section-pro">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="label">Get Involved</span>
+      <h2>Your Next Step</h2>
+      <p>Ready to go deeper? Here are some ways to connect with our community.</p>
+    </div>
+    <div class="next-steps-grid">
+      <a href="/community/groups/" class="next-step-card">
+        <div class="next-step-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 010 7.75"></path>
+          </svg>
+        </div>
+        <h4>Join a Group</h4>
+        <p>Connect in community</p>
+      </a>
+      <a href="/mission/" class="next-step-card">
+        <div class="next-step-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+          </svg>
+        </div>
+        <h4>Serve Others</h4>
+        <p>Make a difference</p>
+      </a>
+      <a href="/about/contact/" class="next-step-card">
+        <div class="next-step-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </div>
+        <h4>Contact Us</h4>
+        <p>We'd love to hear from you</p>
+      </a>
+      <a href="/give/" class="next-step-card">
+        <div class="next-step-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+            <line x1="1" y1="10" x2="23" y2="10"></line>
+          </svg>
+        </div>
+        <h4>Give</h4>
+        <p>Support our mission</p>
+      </a>
+    </div>
+  </div>
+</section> #}
+
+<!-- The Launcher (Floating Action Button) -->
+<div class="launcher" id="launcher">
+  <div class="launcher-menu">
+    <a href="/worship/in-person/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+      Plan Your Visit
+    </a>
+    <a href="/about/contact/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </svg>
+      Contact Us
+    </a>
+    <a href="/give/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+      </svg>
+      Give
+    </a>
+  </div>
+  <button class="launcher-toggle" aria-label="Quick actions">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="12" y1="5" x2="12" y2="19"></line>
+      <line x1="5" y1="12" x2="19" y2="12"></line>
+    </svg>
+  </button>
+  <span class="launcher-label">Next Steps</span>
+</div>
+
+<script>
+// Video control hiding
+function hideVideoControls(video) {
+  video.controls = false;
+  video.setAttribute('controls', false);
+  video.removeAttribute('controls');
+  video.style.pointerEvents = 'none';
+  video.style.webkitUserSelect = 'none';
+  video.style.userSelect = 'none';
+  video.oncontextmenu = function() { return false; };
+  video.muted = true;
+  video.loop = true;
+  video.style.webkitAppearance = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const videos = document.querySelectorAll('.hero-pro video');
+  videos.forEach(hideVideoControls);
+  
+  // Launcher toggle
+  const launcher = document.getElementById('launcher');
+  const launcherToggle = launcher.querySelector('.launcher-toggle');
+  
+  launcherToggle.addEventListener('click', () => {
+    launcher.classList.toggle('active');
+  });
+  
+  // Close launcher when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!launcher.contains(e.target)) {
+      launcher.classList.remove('active');
+    }
+  });
+});
+</script>

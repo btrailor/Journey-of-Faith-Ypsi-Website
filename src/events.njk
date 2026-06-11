@@ -1,0 +1,31 @@
+---
+layout: page
+title: Events
+permalink: /events/
+---
+
+<div class="row">
+  {% for event in collections.events %}
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card event-card h-100">
+      {% if event.data.featuredImage %}
+      <img src="{{ event.data.featuredImage }}" class="card-img-top" alt="{{ event.data.title }}">
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title">{{ event.data.title }}</h3>
+        <p class="card-text">
+          <i class="bi bi-calendar"></i> {{ event.data.eventDate | dateDisplay }}<br>
+          <i class="bi bi-geo-alt"></i> {{ event.data.location }}
+        </p>
+        <a href="{{ event.url }}" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if collections.events.length === 0 %}
+<div class="alert alert-info">
+  <p>No upcoming events at this time. Check back soon!</p>
+</div>
+{% endif %}

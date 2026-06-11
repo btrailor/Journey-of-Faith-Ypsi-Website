@@ -1,0 +1,51 @@
+---
+layout: page
+title: Sermons
+permalink: /sermons/
+---
+
+<div class="row">
+  {% for sermon in collections.sermons %}
+  <div class="col-md-6 mb-4">
+    <div class="card sermon-card">
+      <div class="card-body">
+        <h3 class="card-title">{{ sermon.data.title }}</h3>
+        <p class="card-text">
+          <strong>Date:</strong> {{ sermon.data.date | dateDisplay }}<br>
+          <strong>Pastor:</strong> {{ sermon.data.pastor }}
+          {% if sermon.data.scripture %}
+          <br><strong>Scripture:</strong> {{ sermon.data.scripture }}
+          {% endif %}
+          {% if sermon.data.series %}
+          <br><strong>Series:</strong> {{ sermon.data.series }}
+          {% endif %}
+        </p>
+
+        {% if sermon.data.audioUrl %}
+        <div class="mb-2">
+          <a href="{{ sermon.data.audioUrl }}" class="btn btn-sm btn-outline-primary" target="_blank">
+            <i class="bi bi-headphones"></i> Listen
+          </a>
+        </div>
+        {% endif %}
+
+        {% if sermon.data.videoUrl %}
+        <div class="mb-2">
+          <a href="{{ sermon.data.videoUrl }}" class="btn btn-sm btn-outline-primary" target="_blank">
+            <i class="bi bi-camera-video"></i> Watch
+          </a>
+        </div>
+        {% endif %}
+
+        <a href="{{ sermon.url }}" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if collections.sermons.length === 0 %}
+<div class="alert alert-info">
+  <p>No sermons have been posted yet. Check back soon!</p>
+</div>
+{% endif %}
