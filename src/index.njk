@@ -7,7 +7,9 @@ title: Home
 <section class="hero-pro">
   <div class="hero-bg">
     <div class="video-carousel">
-      <video class="active" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture style="pointer-events: none;">
+      <video id="heroVideo" class="active" autoplay muted playsinline webkit-playsinline disablepictureinpicture style="pointer-events: none;"
+        data-forward-src="/videos/JOFHeroVideo.mp4?v=1"
+        data-reverse-src="/videos/JOFHeroVideo_reversed.mp4?v=1">
         <source src="/videos/JOFHeroVideo.mp4?v=1" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -144,6 +146,39 @@ title: Home
 </section>
 
 <script>
+  // Smooth video loop with forward/reverse playback
+  document.addEventListener('DOMContentLoaded', function() {
+    const video = document.getElementById('heroVideo');
+    if (!video) return;
+    
+    const forwardSrc = video.dataset.forwardSrc;
+    const reverseSrc = video.dataset.reverseSrc;
+    let isForward = true;
+    
+    // Preload both videos
+    const reverseVideo = document.createElement('video');
+    reverseVideo.preload = 'auto';
+    reverseVideo.src = reverseSrc;
+    reverseVideo.muted = true;
+    reverseVideo.playsinline = true;
+    reverseVideo.load();
+    
+    // When forward video ends, switch to reversed video
+    video.addEventListener('ended', function() {
+      if (isForward) {
+        // Switch to reversed video
+        video.src = reverseSrc;
+        video.play();
+        isForward = false;
+      } else {
+        // Switch back to forward video
+        video.src = forwardSrc;
+        video.play();
+        isForward = true;
+      }
+    });
+  });
+
   // Slideshow functionality
   document.addEventListener('DOMContentLoaded', function() {
     const slideshow = document.getElementById('sundaySlideshow');
