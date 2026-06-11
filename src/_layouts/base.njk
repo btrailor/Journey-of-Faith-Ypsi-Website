@@ -17,11 +17,242 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,700;1,14..32,400;1,14..32,700&family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/slideshow-fix.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <style>
+    /* Nav font overrides */
+    .navbar-nav .nav-link {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+    }
+    
+    /* Hero font overrides */
+    .hero-welcome {
+      font-family: 'Literata', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 400;
+      font-size: 3.5rem;
+      letter-spacing: 0.05em;
+      line-height: 1.1;
+    }
+    
+    /* Launcher/FAB styles */
+    .launcher {
+      position: fixed;
+      bottom: 2.5rem;
+      right: 2.5rem;
+      z-index: 90;
+    }
+    .launcher .launcher-toggle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #c4785a;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(196,120,90,.4);
+      transition: all .3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .launcher .launcher-toggle:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 30px rgba(196,120,90,.5);
+    }
+    .launcher .launcher-toggle svg {
+      transition: transform .3s ease;
+      width: 24px;
+      height: 24px;
+    }
+    .launcher.active .launcher-toggle svg {
+      transform: rotate(45deg);
+    }
+    .launcher .launcher-menu {
+      position: absolute;
+      bottom: 70px;
+      right: 0;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.2);
+      padding: 1rem;
+      min-width: 220px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all .3s ease;
+    }
+    .launcher .launcher-menu a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.5rem;
+      color: #2c2c2c;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background .3s ease;
+    }
+    .launcher .launcher-menu a:hover {
+      background: #f7f5f0;
+    }
+    .launcher .launcher-menu a svg {
+      width: 20px;
+      height: 20px;
+      color: #7a8b6e;
+      flex-shrink: 0;
+    }
+    .launcher.active .launcher-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+    .launcher .launcher-label {
+      position: absolute;
+      bottom: 70px;
+      right: 70px;
+      background: #2c2c2c;
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: 4px;
+      font-size: .8rem;
+      font-weight: 500;
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity .3s ease;
+      pointer-events: none;
+    }
+    .launcher .launcher-toggle:hover + .launcher-label,
+    .launcher .launcher-toggle:focus + .launcher-label {
+      opacity: 1;
+    }
+    .launcher.active .launcher-label {
+      display: none;
+    }
+    
+    /* Visit section specific styles */
+    .visit-section-pro {
+      background: #fdfcfa;
+    }
+    .visit-section-pro .visit-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 2.5rem;
+    }
+    .visit-section-pro .visit-main {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+    .visit-section-pro .visit-image {
+      aspect-ratio: 16/9;
+      background: linear-gradient(135deg, #a8b89e 0%, #7a8b6e 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .visit-section-pro .visit-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .visit-section-pro .visit-image img.active {
+      opacity: 1;
+    }
+    .visit-section-pro .visit-image img:not(.active) {
+      opacity: 0;
+    }
+    .visit-section-pro .visit-details {
+      padding: 2rem;
+    }
+    .visit-section-pro .visit-details h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.03em;
+    }
+    .visit-section-pro .visit-info-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.5rem;
+    }
+    .visit-section-pro .visit-info-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .visit-section-pro .visit-icon {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      color: #7a8b6e;
+      margin-top: 2px;
+    }
+    .visit-section-pro .visit-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .visit-section-pro .visit-card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+    .visit-section-pro .visit-card h4 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .visit-section-pro .visit-card h4 svg {
+      width: 20px;
+      height: 20px;
+      color: #7a8b6e;
+      flex-shrink: 0;
+    }
+    .visit-section-pro .visit-card p {
+      font-size: 0.9rem;
+      color: #4a4a4a;
+      margin: 0;
+      line-height: 1.5;
+    }
+    
+    @media (max-width: 768px) {
+      .visit-section-pro .visit-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-title {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="top-header bg-white py-3 py-md-4">
@@ -89,6 +320,39 @@
     {{ content | safe }}
   </main>
 
+  <!-- The Launcher (Floating Action Button) -->
+  <div class="launcher" id="launcher">
+    <div class="launcher-menu">
+      <a href="/worship/in-person/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        Plan Your Visit
+      </a>
+      <a href="/about/contact/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        Contact Us
+      </a>
+      <a href="/give/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+        </svg>
+        Give
+      </a>
+    </div>
+    <button class="launcher-toggle" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+      </svg>
+    </button>
+    <span class="launcher-label">Next Steps</span>
+  </div>
+
   <footer class="bg-dark text-white">
     <div class="container">
       <div class="row">
@@ -127,6 +391,25 @@
   {% if customJs %}
   <script src="{{ customJs }}"></script>
   {% endif %}
+
+  <!-- Launcher Toggle Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const launcher = document.getElementById('launcher');
+      const launcherToggle = launcher.querySelector('.launcher-toggle');
+      
+      launcherToggle.addEventListener('click', () => {
+        launcher.classList.toggle('active');
+      });
+      
+      // Close launcher when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!launcher.contains(e.target)) {
+          launcher.classList.remove('active');
+        }
+      });
+    });
+  </script>
 
   <!-- Netlify Identity Widget -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
