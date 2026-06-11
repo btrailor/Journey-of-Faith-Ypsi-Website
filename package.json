@@ -4,11 +4,11 @@
   "description": "Static church website built with 11ty, Bootstrap, and Decap CMS",
   "scripts": {
     "start": "npm-run-all --parallel start:*",
-    "start:eleventy": "npx @11ty/eleventy --serve --port=8081",
-    "start:sass": "npx sass --watch src/sass:_site/css",
+    "start:eleventy": "eleventy --serve",
+    "start:sass": "sass --watch src/sass:_site/css",
     "build": "npm-run-all build:*",
-    "build:eleventy": "npx @11ty/eleventy",
-    "build:sass": "npx sass src/sass:_site/css --style=compressed",
+    "build:eleventy": "eleventy",
+    "build:sass": "echo 'Using pre-built CSS'",
     "build:quick": "npm run build:sass && cp -R src/images/* _site/images/ 2>/dev/null || true",
     "serve": "cd _site && python3 -m http.server 8000"
   },

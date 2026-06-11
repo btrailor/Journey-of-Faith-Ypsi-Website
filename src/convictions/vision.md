@@ -5,8 +5,6 @@ permalink: /convictions/vision/
 ---
 ### **Our Vision:** *to become a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.*
 
-<img src="/images/congregation/IMG_7974.jpg" alt="Community gathering" style="width: 100%; max-width: 600px; margin: 1rem auto 2rem; display: block; border-radius: 8px;">
-
 ### Our Vision is Rooted in the Biblical Story
 
 The Bible tells the ongoing story of God's love for creation and God's work to redeem and restore the whole cosmos (in John 3:16, the Greek word for world is *cosmos!)*. As we study scripture, we find that it reflects diversity within early Jewish and Christians' journeys of faith. Within the Bible we find multiple voices and perspectives: The book of Ruth's affirmation of the foreigner sits alongside Ezra/Nehemiah's desire to maintain a clear Jewish identity (and is a little worried about foreigners as a result!). God is at work in the messiness of all these differences and disagreements, through times of political turmoil and relative peace, with a plan to bring the good news of God's love, peace and justice for all peoples through Jesus Christ. We seek to understand our lives as part of this larger narrative, remembering that God is with us on the journey, at work in the messiness of our own lives, and calling us to build a community that values our diversity and seeks God’s kingdom.*

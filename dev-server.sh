@@ -9,14 +9,8 @@ cd "$(dirname "$0")"
 
 # Build the site first
 echo "📦 Building site..."
-npx @11ty/eleventy --quiet
-npx sass src/sass:_site/css --style=compressed --no-source-map
-
-# Sync images (skip iCloud-stubbed files)
-echo "📸 Syncing images..."
-mkdir -p _site/images
-find src/images -type f -readable -exec bash -c 'mkdir -p "_site/images/$(dirname "${1#src/images/}")" && cp "$1" "_site/images/${1#src/images/}"' _ {} \; 2>/dev/null
-rsync -av --delete src/images/ _site/images/ 2>/dev/null || true
+./node_modules/.bin/eleventy --quiet
+sass src/sass:_site/css --style=compressed --no-source-map
 
 echo "✅ Build complete!"
 echo ""

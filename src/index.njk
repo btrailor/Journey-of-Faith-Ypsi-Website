@@ -8,17 +8,15 @@ title: Home
   <div class="hero-bg">
     <div class="video-carousel">
       <video class="active" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture style="pointer-events: none;">
-        <source src="/videos/JOFHeroVideo.mp4?v=3" type="video/mp4">
-        <source src="/videos/test-video.mp4?v=3" type="video/mp4">
+        <source src="/videos/JOFHeroVideo.mp4?v=1" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
   </div>
-  <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-text-block">
-      <h1 class="hero-headline">Welcome to<br>Journey of Faith</h1>
-      <p>Developing a transformative, barrier-breaking community of disciples of Christ</p>
+      <h1 class="hero-headline"><span style="font-family: 'Libre Baskerville', serif; font-style: italic; font-weight: 400;">Love in God's Love for All</span></h1>
+      <p>Developing a transformative, barrier-breaking community of Disciples of Christ</p>
     </div>
     <div class="hero-card">
       <span class="label">Join Us This Sunday</span>
@@ -38,7 +36,7 @@ title: Home
   <div class="section-inner">
     <div class="section-header">
       <span class="label">Our Foundation</span>
-      <h2>Rooted in Three Core Values: Love in God's Love for All</h2>
+      <h2>God's love of All</h2>
     </div>
     <div class="three-pillars-grid">
       <div class="pillar-card">
@@ -85,7 +83,7 @@ title: Home
         <ul class="about-links-list">
           <li><a href="/about/">Who We Are</a></li>
           <li><a href="/about/history/">History</a></li>
-          <li><a href="/about/leadership/">Staff &amp; Leadership</a></li>
+          <li><a href="/about/leadership/">Staff & Leadership</a></li>
         </ul>
       </div>
     </div>
@@ -102,252 +100,136 @@ title: Home
     </div>
     <div class="visit-grid">
       <div class="visit-main">
-        <div class="visit-image">
-          <img src="/images/congregation/IMG_7904.jpg" alt="Sunday Worship at Journey of Faith" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <div class="visit-details">
-          <h3>Sunday Morning Worship</h3>
-          <ul class="visit-info-list">
-            <li>
-              <svg class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12,6 12,12 16,14"></polyline>
-              </svg>
-              <div>
-                <strong>Service Time</strong><br>
-                Sundays at {{ site.worshipTime }}
-              </div>
-            </li>
-            <li>
-              <svg class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-              <div>
-                <strong>Location</strong><br>
-                {{ site.address }}
-              </div>
-            </li>
-            <li>
-              <svg class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
-              <div>
-                <strong>What to Wear</strong><br>
-                Come as you are. We dress casually.
-              </div>
-            </li>
-          </ul>
-          <a href="/worship/in-person/" class="btn btn-primary-pro">Get Directions</a>
+        <div class="visit-image sunday-slideshow" id="sundaySlideshow">
+          <div class="slideshow-container">
+            <img src="/images/slideshow/slide1.jpg" alt="Worship service" class="slideshow-slide active">
+            <img src="/images/slideshow/slide2.jpg" alt="Community gathering" class="slideshow-slide">
+            <img src="/images/slideshow/slide3.jpg" alt="Family worship" class="slideshow-slide">
+            <img src="/images/slideshow/slide4.jpg" alt="Praise and worship" class="slideshow-slide">
+            <img src="/images/slideshow/slide5.jpg" alt="Children's ministry" class="slideshow-slide">
+            <img src="/images/slideshow/slide6.jpg" alt="Church community" class="slideshow-slide">
+            <img src="/images/slideshow/slide7.jpg" alt="Sunday service" class="slideshow-slide">
+          </div>
         </div>
       </div>
-      <div class="visit-sidebar">
+      <div class="visit-details">
         <div class="visit-card">
-          <h4>🧒 Children Welcome</h4>
-          <p>Kids are welcome in worship, and we offer programming for children and youth.</p>
+          <span class="label">Sunday Worship</span>
+          <div class="visit-time">10:00 AM</div>
+          <p>Join us every Sunday at 10:00 AM for worship, community, and spiritual growth.</p>
+          <a href="/worship/in-person/" class="btn btn-primary-pro">Plan Your Visit</a>
         </div>
         <div class="visit-card">
-          <h4>☕ Connect After Service</h4>
-          <p>Stay for coffee and conversation. We'd love to get to know you.</p>
+          <span class="label">Location</span>
+          <div class="visit-time">2310 Packard Rd.</div>
+          <p>Ypsilanti, MI 48197</p>
+          <a href="https://maps.google.com/?q=2310+Packard+Rd+Ypsilanti+MI" target="_blank" class="btn btn-secondary-pro">Get Directions</a>
         </div>
         <div class="visit-card">
-          <h4>🅿️ Parking</h4>
-          <p>Free parking available in our lot and on the street.</p>
-        </div>
-        <div class="visit-card">
-          <h4>♿ Accessibility</h4>
-          <p>Our building is wheelchair accessible with accessible restrooms.</p>
+          <span class="label">What to Expect</span>
+          <ul class="expect-list">
+            <li>Casual, welcoming atmosphere</li>
+            <li>Contemporary worship & classic hymns</li>
+            <li>Thoughtful, engaging messages</li>
+            <li>Children's programming available</li>
+            <li>Coffee & conversation after service</li>
+          </ul>
+          <a href="/worship/in-person/" class="btn btn-secondary-pro">Learn More</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-{# <!-- Recent Sermons Section — hidden until fully fleshed out -->
+<!-- Mission Preview Section -->
 <section class="section-pro" style="background: white;">
   <div class="section-inner">
     <div class="section-header">
-      <span class="label">Messages</span>
-      <h2>Recent Sermons</h2>
-      <p>Catch up on recent teachings and messages from our community.</p>
+      <span class="label">Our Mission</span>
+      <h2>Connecting with All</h2>
+      <p>We partner with organizations working for positive change in our community.</p>
     </div>
-    <div class="sermons-grid">
-      {% for sermon in collections.sermons | reverse | limit(3) %}
-      <div class="sermon-card-pro">
-        <div class="sermon-date">
-          <span class="day">{{ sermon.data.date | dateDay }}</span>
-          <span class="month">{{ sermon.data.date | dateMonth }}</span>
-        </div>
-        <div class="sermon-content">
-          <h3>{{ sermon.data.title }}</h3>
-          {% if sermon.data.scripture %}
-          <p class="sermon-scripture">{{ sermon.data.scripture }}</p>
-          {% endif %}
-          <p class="sermon-pastor">{{ sermon.data.pastor }}</p>
-          <div class="sermon-actions">
-            {% if sermon.data.audioUrl %}
-            <a href="{{ sermon.data.audioUrl }}" class="sermon-link" target="_blank">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 18V5l12-2v13"></path>
-                <circle cx="6" cy="18" r="3"></circle>
-                <circle cx="18" cy="16" r="3"></circle>
-              </svg>
-              Listen
-            </a>
-            {% endif %}
-            {% if sermon.data.videoUrl %}
-            <a href="{{ sermon.data.videoUrl }}" class="sermon-link" target="_blank">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-              Watch
-            </a>
-            {% endif %}
-            <a href="{{ sermon.url }}" class="sermon-link">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
-                <polyline points="14,2 14,8 20,8"></polyline>
-              </svg>
-              Read More
-            </a>
-          </div>
-        </div>
+    <div class="mission-grid">
+      <div class="mission-card">
+        <img src="/images/webmission.jpg" alt="Mission partners">
+        <h3>Local Partnerships</h3>
+        <p>Supporting organizations like Alpha House, Peace House Catholic Worker, and community housing initiatives.</p>
+        <a href="/mission/" class="btn btn-secondary-pro">Explore Our Mission</a>
       </div>
-      {% else %}
-      <div class="sermon-card-pro">
-        <div class="sermon-content">
-          <h3>Check Back Soon</h3>
-          <p>New sermons will be posted here regularly.</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="/sermons/" class="btn btn-primary-pro">View All Sermons</a>
     </div>
   </div>
-</section> #}
+</section>
 
-{# <!-- Next Steps / Get Connected Section — hidden until fully fleshed out -->
-<section class="section-pro next-steps-section-pro">
+<!-- Values Preview Section -->
+<section class="section-pro values-section-pro">
+  <div class="section-inner">
+    <div class="values-grid">
+      <div class="values-content">
+        <span class="label">Our Values</span>
+        <h2>Communion for All</h2>
+        <p>We believe in a church where all belong and all are cherished. Our values guide everything we do.</p>
+        <ul class="values-list">
+          <li>Transformative Love</li>
+          <li>Inclusivity</li>
+          <li>Curiosity</li>
+          <li>Humility</li>
+          <li>Creativity</li>
+        </ul>
+        <a href="/convictions/values/" class="btn btn-light-pro">Read Our Values</a>
+      </div>
+      <div class="values-image">
+        <img src="/images/webvalues.jpg" alt="Community values">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Community Preview Section -->
+<section class="section-pro" style="background: white;">
   <div class="section-inner">
     <div class="section-header">
-      <span class="label">Get Involved</span>
-      <h2>Your Next Step</h2>
-      <p>Ready to go deeper? Here are some ways to connect with our community.</p>
+      <span class="label">Our Community</span>
+      <h2>Christ in All</h2>
+      <p>We're a diverse community of disciples growing together in faith and love.</p>
     </div>
-    <div class="next-steps-grid">
-      <a href="/community/groups/" class="next-step-card">
-        <div class="next-step-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-            <circle cx="9" cy="7" r="4"></circle>
-            <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
-            <path d="M16 3.13a4 4 0 010 7.75"></path>
-          </svg>
-        </div>
-        <h4>Join a Group</h4>
-        <p>Connect in community</p>
-      </a>
-      <a href="/mission/" class="next-step-card">
-        <div class="next-step-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-          </svg>
-        </div>
-        <h4>Serve Others</h4>
-        <p>Make a difference</p>
-      </a>
-      <a href="/about/contact/" class="next-step-card">
-        <div class="next-step-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-            <polyline points="22,6 12,13 2,6"></polyline>
-          </svg>
-        </div>
-        <h4>Contact Us</h4>
-        <p>We'd love to hear from you</p>
-      </a>
-      <a href="/give/" class="next-step-card">
-        <div class="next-step-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
-            <line x1="1" y1="10" x2="23" y2="10"></line>
-          </svg>
-        </div>
-        <h4>Give</h4>
-        <p>Support our mission</p>
-      </a>
+    <div class="community-grid">
+      <div class="community-card">
+        <img src="/images/webmembers.jpg" alt="Church members">
+        <h3>Who We Are</h3>
+        <p>A family-friendly, LGBTQ+ affirming church committed to spiritual formation, mutual support, and social justice.</p>
+        <a href="/about/" class="btn btn-secondary-pro">Meet Our Community</a>
+      </div>
     </div>
   </div>
-</section> #}
+</section>
 
-<!-- The Launcher (Floating Action Button) -->
-<div class="launcher" id="launcher">
-  <div class="launcher-menu">
-    <a href="/worship/in-person/">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
-        <circle cx="12" cy="10" r="3"></circle>
-      </svg>
-      Plan Your Visit
-    </a>
-    <a href="/about/contact/">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-        <polyline points="22,6 12,13 2,6"></polyline>
-      </svg>
-      Contact Us
-    </a>
-    <a href="/give/">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-      </svg>
-      Give
-    </a>
+<!-- Contact CTA -->
+<section class="section-pro cta-section-pro">
+  <div class="section-inner text-center">
+    <span class="label">Get In Touch</span>
+    <h2>We'd Love to Hear from You</h2>
+    <p>Have questions? Want to learn more? Reach out — we'd love to connect with you.</p>
+    <div class="cta-buttons">
+      <a href="/about/contact/" class="btn btn-light-pro">Contact Us</a>
+      <a href="/about/drinks-with-pastor/" class="btn btn-outline-light-pro">Drinks with the Pastor</a>
+    </div>
   </div>
-  <button class="launcher-toggle" aria-label="Quick actions">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="12" y1="5" x2="12" y2="19"></line>
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-    </svg>
-  </button>
-  <span class="launcher-label">Next Steps</span>
-</div>
+</section>
 
 <script>
-// Video control hiding
-function hideVideoControls(video) {
-  video.controls = false;
-  video.setAttribute('controls', false);
-  video.removeAttribute('controls');
-  video.style.pointerEvents = 'none';
-  video.style.webkitUserSelect = 'none';
-  video.style.userSelect = 'none';
-  video.oncontextmenu = function() { return false; };
-  video.muted = true;
-  video.loop = true;
-  video.style.webkitAppearance = 'none';
-}
+  // Slideshow functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('#sundaySlideshow .slideshow-slide');
+    let currentSlide = 0;
 
-document.addEventListener('DOMContentLoaded', function() {
-  const videos = document.querySelectorAll('.hero-pro video');
-  videos.forEach(hideVideoControls);
-  
-  // Launcher toggle
-  const launcher = document.getElementById('launcher');
-  const launcherToggle = launcher.querySelector('.launcher-toggle');
-  
-  launcherToggle.addEventListener('click', () => {
-    launcher.classList.toggle('active');
-  });
-  
-  // Close launcher when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!launcher.contains(e.target)) {
-      launcher.classList.remove('active');
+    function nextSlide() {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+
+    if (slides.length > 1) {
+      setInterval(nextSlide, 4000);
     }
   });
-});
 </script>

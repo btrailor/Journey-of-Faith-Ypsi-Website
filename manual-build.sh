@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 
 # Build CSS
 echo "🎨 Building CSS..."
-npx sass src/sass:_site/css --style=compressed --no-source-map
+sass src/sass:_site/css --style=compressed --no-source-map
 
 # Copy all static assets
 echo "📁 Copying assets..."

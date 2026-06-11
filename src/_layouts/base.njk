@@ -17,20 +17,111 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/slideshow-fix.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
-  {% include "header.njk" %}
-  {% include "navigation.njk" %}
+  <div class="top-header bg-white py-3 py-md-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+          <img src="/images/logo.png?v=20241116" alt="Journey of Faith Logo" class="logo-img">
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <p class="mb-1 fs-5">
+            <strong>Worship with us Sundays, 10:00 AM</strong>
+          </p>
+          <p class="mb-0 text-muted">2310 Packard Rd. Ypsilanti, MI</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/about/" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="/about/">About Us</a></li>
+              <li><a class="dropdown-item" href="/about/history/">History & Denomination</a></li>
+              <li><a class="dropdown-item" href="/about/leadership/">Leadership</a></li>
+              <li><a class="dropdown-item" href="/about/faq/">FAQ</a></li>
+              <li><a class="dropdown-item" href="/about/drinks-with-pastor/">Drinks with the Pastor</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/about/contact/">Contact Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/convictions/" id="convictionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Convictions</a>
+            <ul class="dropdown-menu" aria-labelledby="convictionsDropdown">
+              <li><a class="dropdown-item" href="/convictions/vision/">The Vision We Share</a></li>
+              <li><a class="dropdown-item" href="/convictions/values/">The Values We Pursue</a></li>
+              <li><a class="dropdown-item" href="/convictions/mission/">The Mission We Do</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/worship/" id="worshipDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Worship</a>
+            <ul class="dropdown-menu" aria-labelledby="worshipDropdown">
+              <li><a class="dropdown-item" href="/worship/in-person/">In Person</a></li>
+              <li><a class="dropdown-item" href="/worship/online/">Online</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/give/">Give</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <main>
     {{ content | safe }}
   </main>
 
-  {% include "footer.njk" %}
+  <footer class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5>Journey of Faith</h5>
+          <p>Christ in all. Communion for all. Connecting with all.</p>
+          <p class="small">A church committed to love and nurture Christ in ALL, offer Communion for ALL, and Connect with ALL as we pursue a vision of God's transformative, barrier-breaking community.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Contact</h5>
+          <p>
+            <i class="bi bi-geo-alt"></i> 2310 Packard Rd. Ypsilanti, MI<br>
+            <i class="bi bi-telephone"></i> (734) 829-8357<br>
+            <i class="bi bi-envelope"></i> pastorsarahlynne@gmail.com
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="/worship/in-person/" class="text-white-50">Visit Us</a></li>
+            <li><a href="/about/contact/" class="text-white-50">Contact</a></li>
+            <li><a href="/give/" class="text-white-50">Give</a></li>
+            <li><a href="/about/faq/" class="text-white-50">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center pt-3 border-top border-secondary">
+          <p class="mb-0">&copy; 2026 Journey of Faith. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   {% if customJs %}
@@ -50,7 +141,7 @@
       });
     }
   </script>
-  
+
   <!-- Safari Video Debug Script -->
   <script src="/js/safari-video-debug.js"></script>
 </body>
