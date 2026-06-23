@@ -7,9 +7,12 @@ title: Home
 <section class="hero-pro">
   <div class="hero-bg">
     <div class="video-carousel">
-      <video id="heroVideo" preload="auto" autoplay="" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" style="pointer-events: none;" src="/videos/JOFHeroVideo.mp4?v=2">
-        <source src="/videos/JOFHeroVideo.mp4?v=2" type="video/mp4">
+      <video id="heroVideoForward" class="hero-video-layer active" preload="auto" autoplay="" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" style="pointer-events: none;" src="/videos/JOFHeroVideo.mp4?v=3">
+        <source src="/videos/JOFHeroVideo.mp4?v=3" type="video/mp4">
         Your browser does not support the video tag.
+      </video>
+      <video id="heroVideoReverse" class="hero-video-layer" preload="auto" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" style="pointer-events: none;" src="/videos/JOFHeroVideo_reversed.mp4?v=3">
+        <source src="/videos/JOFHeroVideo_reversed.mp4?v=3" type="video/mp4">
       </video>
     </div>
   </div>
@@ -179,59 +182,98 @@ title: Home
 </section>
 
 <script>
-  // Single-video ping-pong: plays forward, then reverses near the end, then forward again.
-  // No second video element, no source swapping, no green flash.
+  // Seamless ping-pong using two pre-rendered video elements (forward + reversed)
+  // and requestAnimationFrame for frame-precise crossfade timing.
+  // No negative playbackRate, no loop attribute, no green flash.
   document.addEventListener('DOMContentLoaded', function() {
-    var video = document.getElementById('heroVideo');
-    if (!video) return;
+    var fwd = document.getElementById('heroVideoForward');
+    var rev = document.getElementById('heroVideoReverse');
+    if (!fwd || !rev) return;
 
-    // Configurable timing (in seconds)
-    var reverseStartOffset = 0.5;  // begin reversing this many seconds before the end
-    var forwardStartOffset  = 0.3;  // resume forward this many seconds from the start
-    var reverseRate = -1;           // negative playbackRate for reverse
-    var forwardRate = 1;            // normal forward rate
+    // --- Config ---
+    var crossfadeStart = 0.35;   // seconds before end to begin crossfade
+    var crossfadeDuration = 0.25; // seconds for the opacity blend
+    var rafId = null;
+    var current = 'fwd';         // which video is visually on top
+    var transitioning = false;
 
-    var direction = 'forward'; // 'forward' | 'reverse'
+    // Both videos are muted + playsinline for autoplay compatibility.
+    // The reverse video starts paused, preloaded at frame 0.
+    rev.pause();
+    rev.currentTime = 0;
 
-    video.addEventListener('loadedmetadata', function() {
-      // Ensure we start at the beginning playing forward
-      video.playbackRate = forwardRate;
-      video.play().catch(function() { /* autoplay may be blocked */ });
-    });
+    function startVideo(v) {
+      v.currentTime = 0;
+      var p = v.play();
+      if (p && p.catch) p.catch(function() {});
+    }
 
-    video.addEventListener('timeupdate', function() {
-      if (isNaN(video.duration) || video.duration === 0) return;
+    // Crossfade from -> to: start 'to' playing, then swap opacity.
+    function crossfade(from, to, nextDir) {
+      if (transitioning) return;
+      transitioning = true;
 
-      if (direction === 'forward' && video.currentTime >= video.duration - reverseStartOffset) {
-        // Switch to reverse
-        direction = 'reverse';
-        video.playbackRate = reverseRate;
-      } else if (direction === 'reverse' && video.currentTime <= forwardStartOffset) {
-        // Switch back to forward
-        direction = 'forward';
-        video.playbackRate = forwardRate;
+      // Pause the outgoing video at its current frame to prevent it
+      // from reaching the very last frame (which may be a hard cut).
+      from.pause();
+
+      // Seek the incoming video to 0 and start it playing immediately
+      // so it's already rendering frames before we begin the opacity blend.
+      to.currentTime = 0;
+      var p = to.play();
+      if (p && p.catch) p.catch(function() {});
+
+      // After a tick (let the incoming video's first frame render), swap.
+      requestAnimationFrame(function() {
+        to.classList.add('active');
+        from.classList.remove('active');
+        current = nextDir;
+        transitioning = false;
+      });
+    }
+
+    function tick() {
+      var active = (current === 'fwd') ? fwd : rev;
+      var inactive = (current === 'fwd') ? rev : fwd;
+      var nextDir = (current === 'fwd') ? 'rev' : 'fwd';
+
+      if (!transitioning && active.readyState >= 2 && !isNaN(active.duration) && active.duration > 0) {
+        var remaining = active.duration - active.currentTime;
+        if (remaining <= crossfadeStart) {
+ crossfade(active, inactive, nextDir);
+        }
       }
+      rafId = requestAnimationFrame(tick);
+    }
+
+    // Start the forward video as soon as metadata is ready.
+    fwd.addEventListener('loadedmetadata', function() {
+      fwd.play().catch(function() { /* autoplay may be blocked */ });
+      rafId = requestAnimationFrame(tick);
     });
 
-    // Safety net: if the browser fires 'ended' despite our timeupdate handling
-    // (e.g., if timeupdate didn't fire fast enough), restart from the beginning.
-    video.addEventListener('ended', function() {
-      if (direction === 'forward') {
-        // We reached the end going forward; start reversing from near the end
-        direction = 'reverse';
-        video.currentTime = video.duration - 0.05;
-        video.playbackRate = reverseRate;
-        video.play().catch(function() {});
-      }
+    // If metadata is already cached, start immediately.
+    if (fwd.readyState >= 1) {
+      fwd.play().catch(function() {});
+      rafId = requestAnimationFrame(tick);
+    }
+
+    // Safety net: if 'ended' fires on the active video before rAF catches it,
+    // force the crossfade.
+    fwd.addEventListener('ended', function() {
+      if (current === 'fwd' && !transitioning) crossfade(fwd, rev, 'rev');
+    });
+    rev.addEventListener('ended', function() {
+      if (current === 'rev' && !transitioning) crossfade(rev, fwd, 'fwd');
     });
 
-    // Safety net: if the video pauses at frame 0 while reversing (timeupdate
-    // didn't fire fast enough), resume forward.
-    video.addEventListener('pause', function() {
-      if (direction === 'reverse' && video.currentTime <= forwardStartOffset) {
-        direction = 'forward';
-        video.playbackRate = forwardRate;
-        video.play().catch(function() {});
+    // Pause rAF when tab is hidden; resume when visible.
+    document.addEventListener('visibilitychange', function() {
+      if (document.hidden) {
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = null;
+      } else {
+        if (!rafId) rafId = requestAnimationFrame(tick);
       }
     });
   });
