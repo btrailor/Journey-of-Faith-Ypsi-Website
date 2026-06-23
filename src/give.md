@@ -4,8 +4,6 @@ title: Give
 permalink: /give/
 ---
 
-## Give
-
 Thank you for your generosity! Your giving supports the ministry of Journey of Faith and helps us live out our mission in the community.
 
 ---

@@ -5,6 +5,7 @@ $jof-sage: #65854c; // Medium green
 $jof-sky: #b9d5da; // Light blue
 $jof-gray: #b0bdbf; // Medium gray
 $jof-gold: #cb832e; // Accent gold/orange
+$jof-light-gold: #d8a05f; // Lighter gold for accents on dark backgrounds
 $jof-cream: #f7f5ee; // Off-white/cream
 $jof-deep-forest: #0e1b12; // Very dark green/black
 
@@ -18,7 +19,7 @@ $primary: $jof-forest-green;
 $secondary: $jof-sage;
 $success: $jof-sage;
 $info: $jof-sky;
-$warning: $jof-gold;
+$warning: $jof-light-gold;
 $danger: $jof-rust;
 $light: $jof-cream;
 $dark: $jof-deep-forest;
@@ -27,14 +28,14 @@ $dark: $jof-deep-forest;
 $body-bg: $jof-cream;
 $body-color: $jof-deep-forest;
 $font-family-base: $font-family-body;
-$headings-font-family: $font-family-heading;
+$headings-font-family: $font-family-subheading; // default headings are serif
 $headings-font-weight: 400;
 $font-weight-base: 400;
 $line-height-base: 1.7;
 
 // Link colors
-$link-color: $jof-forest-green;
-$link-hover-color: $jof-rust;
+$link-color: $jof-light-gold;
+$link-hover-color: $jof-light-gold;
 
 // Import Bootstrap with our custom variables
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -50,11 +51,28 @@ main {
   flex: 1;
 }
 
-// Typography overrides
+// Typography: headings and labels per Brett's 2026-06-22 direction:
+// - h1, h2, hero title, nav: Bebas Neue
+// - Small uppercase labels (Our Foundation, Who We Are, Plan Your Visit): Literata
+// - h3-h6, body: Literata
 h1,
-h2 {
+h2,
+.page-title,
+.hero-title,
+.hero-headline,
+.navbar-brand,
+.navbar-nav .nav-link {
   font-family: $font-family-heading;
   letter-spacing: 1px;
+}
+
+.label {
+  display: inline-block;
+  font-family: $font-family-subheading;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 h3,
@@ -64,6 +82,31 @@ h6 {
   font-family: $font-family-subheading;
   font-weight: 600;
   letter-spacing: 0.3px;
+}
+
+// Centered section headers used on the homepage
+.section-header {
+  text-align: center;
+}
+
+.foundation-section-pro .section-header {
+  text-align: left;
+}
+
+.visit-section-pro .section-header {
+  text-align: right;
+
+  h2,
+  .h2,
+  p {
+    text-align: right;
+  }
+}
+
+// Site name in footer should be Bebas Neue
+.site-name {
+  font-family: $font-family-heading;
+  letter-spacing: 1px;
 }
 
 p,
@@ -263,7 +306,7 @@ section {
   background-color: $jof-gray !important;
 }
 .bg-jof-gold {
-  background-color: $jof-gold !important;
+  background-color: $jof-light-gold !important;
 }
 .bg-jof-cream {
   background-color: $jof-cream !important;
@@ -279,7 +322,7 @@ section {
   color: $jof-sage !important;
 }
 .text-jof-gold {
-  color: $jof-gold !important;
+  color: $jof-light-gold !important;
 }
 
 // Top header styling
@@ -333,14 +376,14 @@ section {
   }
 
   .nav-link {
-    color: $jof-deep-forest !important;
+    color: $jof-light-gold !important;
     font-family: $font-family-heading;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
 
     &:hover {
-      color: $jof-rust !important;
+      color: darken($jof-light-gold, 10%) !important;
     }
   }
 
@@ -371,16 +414,23 @@ section {
 }
 
 .btn-primary {
+  background-color: #cb832e;
+  border-color: #cb832e;
+  color: #fff;
+
   &:hover {
-    background-color: darken($jof-forest-green, 10%);
-    border-color: darken($jof-forest-green, 10%);
+    background-color: #a56a25;
+    border-color: #a56a25;
   }
 }
 
 .btn-outline-primary {
+  color: #cb832e;
+  border-color: #cb832e;
+
   &:hover {
-    background-color: $jof-forest-green;
-    border-color: $jof-forest-green;
+    background-color: #cb832e;
+    border-color: #cb832e;
   }
 }
 
@@ -390,8 +440,12 @@ footer {
     transition: color 0.3s ease;
 
     &:hover {
-      color: $jof-gold !important;
+      color: $jof-light-gold !important;
     }
+  }
+
+  a.text-white-50 {
+    color: $jof-light-gold !important;
   }
 }
 
@@ -409,6 +463,9 @@ footer {
     box-shadow: 0 4px 8px rgba($jof-forest-green, 0.1);
   }
 }
+
+// Custom pro component classes
+@import "pro-classes";
 
 // Tagline section PNG icons
 .tagline-icon {

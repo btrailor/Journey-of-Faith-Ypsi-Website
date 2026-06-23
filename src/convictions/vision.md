@@ -3,7 +3,7 @@ layout: page
 title: The Vision We Share
 permalink: /convictions/vision/
 ---
-### **Our Vision:** *to become a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.*
+Our Vision: *to become a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.*
 
 ### Our Vision is Rooted in the Biblical Story
 
@@ -21,6 +21,6 @@ The good news of Jesus Christ is at the center of our faith. Jesus preached good
 
 Journey of Faith has been given a vision of *a transformative spiritual community that breaks down barriers, connects diverse individuals, and demonstrates God’s love through meaningful and nurturing relationships to those inside and outside the church’s walls.* Our church is interracial, intergenerational, and has a long history of working for justice in Washtenaw County, especially around areas of poverty and homelessness. We want to continue that work! We have a vision for a church that offers hospitality to families in need and builds intergenerational community that empowers youth and cares for the elderly. We are currently discerning how a new building might be help us grow our ministry. We hope you catch that vision and join us in this transformative, life-giving work!
 
-\
-\
+---
+
 **\*Kingdom or Kin(g)dom?** [](https://www.google.com/search?sca_esv=109ab09de071e349&sxsrf=ANbL-n5R985tXSr7YrOOpju2fUPVO9B97g%3A1770992822861&q=%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B5%CE%AF%CE%B1&sa=X&ved=2ahUKEwjm2Oyw1taSAxVd_8kDHWYyCV8QxccNegQIIBAB&mstk=AUtExfCYOBbaSsChbGG36Pu66P9OcHNJ9A5RNrKXTMsQFNlcb3bJ7vhvs7Fql4nnvYP971DzSBmtdZFa6SpSEqndLkmJLmW2oDzrPo7-v2mLTsIznQQVsA93pU0GpA6ZK54WuRA&csui=3)*Basileia*, the word in the Bible often translated as "kingdom," refers to God's *realm* of authority. It isn't defined by a specific place or time, but by the faithfulness of the people of God to God's guidance, that we might become a people who embody God's justice, peace, and compassion. That community, which transcends time and place, are the collective family of God. We believe *all people* are called to that family. Both families and kingdoms in this world are fallen and can do great harm. What defines God's kin(g)dom is not the structure of authority (in a "family" or "nation"). Instead the "realm" is defined by God's vision for beloved community and the faithful participation of those who catch that vision.

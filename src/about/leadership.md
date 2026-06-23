@@ -9,7 +9,7 @@ permalink: /about/leadership/
 
 <img src="/images/uploads/sarah.jpeg" alt="Pastor Sarah Lynne" style="float: right; margin: 0 0 1rem 1.5rem; width: 300px; border-radius: 8px;">
 
-Rev. Sarah Lynne Gershon is our pastor. She offers guidance to our lay leadership and oversees church staff. She loves chatting about the bible and theology, singing from the Sacred Harp as often as possible, and hosting people in her home.
+Rev. Sarah Lynne Gershon is our pastor. She offers guidance to our lay leadership and oversees church staff. She loves chatting about the Bible and theology, singing from the Sacred Harp as often as possible, and hosting people in her home.
 
 Sarah Lynne grew up in a large evangelical church in Orlando, FL.  After reading through the gospels for the first time in high school, and catching Jesus' vision of "good news for the poor," she was sent on a journey that led her to move to Minneapolis to join the Catholic Worker, an intentional community (unaffiliated with the Roman Catholic church) where members offer beds in their homes for people who would otherwise be without housing.
 
@@ -59,17 +59,13 @@ Dave also has a passion for sound and recording. He has generously blessed us wi
 
 **You can reach Dave at:  jofdisciples@gmail.com**
 
-*"Maybe it's why there's an ancient proverb that says, 'To sing is to pray twice.'" -Dave*
-
 <img src="/images/JASONSTAFF.jpg" alt="Jason Gong" style="float: right; margin: 0 0 1rem 1.5rem; width: 300px; border-radius: 8px;">
 
-**Jason Gong** is an international pianist and cellist from Michigan. He received his Masters in Piano Performance at the Guildhall School of Music and Drama in London, United Kingdom studying under Prof. Noriko Ogawa and Prof. Paul Roberts and his Bachelors of Music in Piano Performance from the University of Michigan studying under Dr. Louis Nagel.
+**Jason Gong** is an international pianist and cellist from Michigan. He received his Masters of Piano Performance at the Guildhall School of Music and Drama in London, UK studying under Prof. Noriko Ogawa and Prof. Paul Roberts and his Bachelors of Music in Piano Performance from the University of Michigan studying under Dr. Louis Nagel.
 
-He has a passion for collaboration, both with musicians and other disciplines. Most recently, he created and performed original works on both cello and piano with musicians and visual artists for the Curiosa exhibition in Gois, Portugal, and also performed works by Ravel and Debussy alongside original choreography with dancers and choreographers from the London Contemporary Dance School.
+Although his foundations are in classical music, Jason loves to explore the connections between all creative disciplines. How politics, traditions, and cultures inform, and are in turn informed by, new genres. As artists, how our acts of creation and recreation reflect our self-discovery. In times of crisis, or when physical needs are threatened, what is the role of art? These ideas drive his love for improvisation and passion for collaboration.
 
-Now based in Ypsilanti, Jason performs around the Metro Detroit area in both public shows, and also private events. In addition, Jason teaches both piano and cello privately, and works with local groups such as Mosaic Youth Theatre, Seaway Chorale and Orchestra, Art of Musique, and Expressions Music Academy. In the summer, Jason teaches cello and music improvisation at the CelloChanWoods retreat in Vermont.
-
-In his spare time, Jason enjoys exploring local coffee shops, reading, and spending time in nature. You can reach Jason at: <a href="https://journeyoffaitha2.us15.list-manage.com/track/click?u=937848ed4cab1554665f59ffa&id=e829c24408&e=1b88f2eb3e" target="_blank" rel="noopener noreferrer">www.jasongongmusic.com</a>
+Currently, Jason is based in Ypsilanti, Michigan where he performs around SE Michigan, maintains a teaching studio for both piano and cello, and is the accompanist and assistant director for St. Augustine's Catholic Choir. Recently he has performed for the show "We Call it Tango" in Detroit, and performed on tour with St. Augustine's in places like the Notre-Dame Basilica in Montreal and St. Peter's Basilica in Vatican City. In the summer Jason also teaches at CelloChanWoods a week long cello retreat in Starksboro Vermont. In his spare time, Jason enjoys cooking for others, listening to podcasts, and swing dancing! You can reach Jason at: <a href="https://journeyoffaitha2.us15.list-manage.com/track/click?u=937848ed4cab1554665f59ffa&id=e829c24408&e=1b88f2eb3e" target="_blank" rel="noopener noreferrer">www.jasongongmusic.com</a>
 
 - - -
 

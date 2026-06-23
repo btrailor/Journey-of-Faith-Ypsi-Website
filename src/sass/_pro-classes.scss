@@ -1,0 +1,702 @@
+// Custom "pro" component classes migrated from the old minified CSS.
+// Brand colors and typography are inherited from main.scss variables.
+
+// ─── Labels ───
+.label {
+  display: inline-block;
+  font-family: $font-family-subheading;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $jof-sage;
+  margin-bottom: 1rem;
+}
+
+// ─── Pro Buttons ───
+.btn-primary-pro {
+  background: #cb832e;
+  color: #fff;
+  border: 2px solid #cb832e;
+  border-radius: 8px;
+
+  &:hover {
+    background: #a56a25;
+    border-color: #a56a25;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(203, 131, 46, 0.3);
+  }
+}
+
+.btn-secondary-pro {
+  background: transparent;
+  color: $jof-forest-green;
+  border: 2px solid $jof-forest-green;
+  border-radius: 8px;
+
+  &:hover {
+    background: $jof-forest-green;
+    color: #fff;
+  }
+
+  &.btn-sm {
+    background: $jof-forest-green;
+    color: #fff;
+    border-color: $jof-forest-green;
+
+    &:hover {
+      background: #2e3f23;
+      border-color: #2e3f23;
+    }
+  }
+}
+
+.btn-light-pro {
+  background: hsla(0, 0%, 100%, 0.95);
+  color: $jof-deep-forest;
+  border: none;
+  border-radius: 8px;
+
+  &:hover {
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    color: $jof-deep-forest;
+  }
+}
+
+// ─── Hero ───
+.hero-pro {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, $jof-forest-green 0%, $jof-deep-forest 100%);
+  overflow: hidden;
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+    z-index: 0;
+    overflow: hidden;
+
+    .video-carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      video {
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        pointer-events: none;
+        transition: opacity 0.3s ease-in-out;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+    }
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      rgba($jof-forest-green, 0.9) 0%,
+      rgba($jof-forest-green, 0.7) 50%,
+      rgba($jof-forest-green, 0.4) 100%
+    );
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: calc(80px + 4rem) 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .hero-headline {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.2;
+  }
+
+  .hero-text-block {
+    animation: fadeInUp 0.8s ease-out;
+
+    p {
+      color: hsla(0, 0%, 100%, 0.85);
+      font-size: 1.15rem;
+      max-width: 500px;
+      line-height: 1.6;
+    }
+  }
+
+  .hero-card {
+    background: hsla(0, 0%, 100%, 0.97);
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+
+    h3,
+    .h3 {
+      margin-bottom: 1rem;
+      color: $jof-deep-forest;
+    }
+
+    p {
+      color: #4a4a4a;
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    width: 100%;
+
+    .btn {
+      flex: 1 1 0;
+      min-height: 80px;
+      width: auto;
+      text-align: center;
+      white-space: normal;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+  }
+}
+
+// Responsive: keep hero blocks stacked on small screens, side-by-side on larger screens
+@media (min-width: 768px) {
+  .hero-pro .hero-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// ─── Hero title size override (wife feedback) ───
+.hero-title {
+  font-size: clamp(3.5rem, 8vw, 6.5rem);
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+// ─── Section spacing ───
+.section-pro {
+  padding: 6rem 1.5rem;
+}
+
+// ─── Three Pillars ───
+.three-pillars-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .three-pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .three-pillars-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pillar-card {
+  background: #ede0c5;
+  padding: 2.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+
+  h3,
+  .h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: $jof-deep-forest;
+  }
+
+  p {
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+  }
+
+  .btn-sm,
+  .btn-group-sm > .btn {
+    padding: 0.625rem 1.5rem;
+    font-size: 0.85rem;
+  }
+
+  .pillar-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+
+    .pillar-icon {
+      max-width: 60px;
+      max-height: 60px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  &:hover .pillar-icon-wrapper {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+  }
+}
+
+// ─── Visit section ───
+.visit-section-pro {
+  background: lighten($jof-cream, 2%);
+
+  .visit-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .visit-main {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  }
+
+  .visit-image {
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(135deg, $jof-sage 0%, $jof-forest-green 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .visit-details {
+    padding: 2.5rem;
+
+    h3,
+    .h3 {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .visit-info-list {
+    list-style: none;
+    margin-bottom: 2.5rem;
+    padding: 0;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba($jof-deep-forest, 0.1);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .visit-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: $jof-sage;
+  }
+
+  .visit-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .visit-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+
+    h4,
+    .h4 {
+      font-family: $font-family-heading;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+
+    p {
+      color: #4a4a4a;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+  }
+}
+
+// ─── Dual section (events/staff preview) ───
+.dual-section-pro {
+  background: $jof-cream;
+
+  .dual-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .dual-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  }
+
+  .dual-card-image {
+    aspect-ratio: 16 / 10;
+    background: $jof-sage;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .staff-preview {
+    display: flex;
+    gap: -10px;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .staff-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $jof-light-gold;
+    border: 3px solid #fff;
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .dual-card-content {
+    padding: 2.5rem;
+
+    h3,
+    .h3 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #4a4a4a;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .calendar-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .calendar-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba($jof-deep-forest, 0.1);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .calendar-date {
+    flex-shrink: 0;
+    width: 50px;
+    text-align: center;
+    padding: 0.5rem;
+    background: $jof-cream;
+    border-radius: 4px;
+
+    .day {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: $jof-deep-forest;
+      line-height: 1;
+      display: block;
+    }
+
+    .month {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: $jof-sage;
+      display: block;
+    }
+  }
+
+  .calendar-info {
+    h4,
+    .h4 {
+      font-family: $font-family-heading;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+
+    p {
+      font-size: 0.85rem;
+      color: #4a4a4a;
+      margin: 0;
+    }
+  }
+}
+
+// ─── Next Steps ───
+.next-steps-section-pro {
+  background: #fff;
+
+  .next-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .next-step-card {
+    background: $jof-cream;
+    padding: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: $jof-deep-forest;
+    transition: all 0.3s ease;
+    display: block;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      text-decoration: none;
+      color: $jof-deep-forest;
+    }
+
+    h4,
+    .h4 {
+      font-family: $font-family-heading;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+      color: #4a4a4a;
+      margin: 0;
+    }
+  }
+
+  .next-step-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 1rem;
+    background: $jof-sage;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+// ─── Floating action button launcher ───
+.launcher {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  z-index: 90;
+
+  .launcher-toggle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: $jof-light-gold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba($jof-light-gold, 0.4);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+      box-shadow: 0 6px 30px rgba($jof-light-gold, 0.5);
+    }
+
+    svg {
+      transition: transform 0.3s ease;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &.active .launcher-toggle svg {
+    transform: rotate(45deg);
+  }
+
+  .launcher-menu {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    min-width: 220px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.5rem;
+      color: $jof-deep-forest;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: $jof-cream;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        color: $jof-sage;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  &.active .launcher-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .launcher-label {
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+    background: $jof-deep-forest;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .launcher-toggle:hover + .launcher-label,
+  .launcher-toggle:focus + .launcher-label {
+    opacity: 1;
+  }
+
+  &.active .launcher-label {
+    display: none;
+  }
+}
+
+// ─── Page titles ───
+.page-title {
+  color: $jof-sage;
+}
+
+// ─── Fade-in keyframe used by hero ───
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

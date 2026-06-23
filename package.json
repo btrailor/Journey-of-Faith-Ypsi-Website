@@ -5,11 +5,11 @@
   "scripts": {
     "start": "npm-run-all --parallel start:*",
     "start:eleventy": "eleventy --serve",
-    "start:sass": "sass --watch src/sass:_site/css",
-    "build": "npm-run-all build:*",
+    "start:sass": "sass --no-source-map --watch src/sass/main.scss:src/css/main.css",
+    "build": "npm-run-all -s build:sass build:eleventy build:quick",
     "build:eleventy": "eleventy",
-    "build:sass": "echo 'Using pre-built CSS'",
-    "build:quick": "npm run build:sass && cp -R src/images/* _site/images/ 2>/dev/null || true",
+    "build:sass": "sass --no-source-map src/sass/main.scss:src/css/main.css",
+    "build:quick": "cp -R src/images/* _site/images/ 2>/dev/null || true",
     "serve": "cd _site && python3 -m http.server 8000"
   },
   "keywords": [
