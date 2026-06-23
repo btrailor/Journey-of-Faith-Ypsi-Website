@@ -7,12 +7,8 @@ title: Home
 <section class="hero-pro">
   <div class="hero-bg">
     <div class="video-carousel">
-      <video id="heroVideoForward" class="hero-video active" preload="auto" autoplay="" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" style="pointer-events: none;" src="/videos/JOFHeroVideo.mp4?v=1">
-        <source src="/videos/JOFHeroVideo.mp4?v=1" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <video id="heroVideoReverse" class="hero-video" preload="auto" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" style="pointer-events: none;" src="/videos/JOFHeroVideo_reversed.mp4?v=1">
-        <source src="/videos/JOFHeroVideo_reversed.mp4?v=1" type="video/mp4">
+      <video id="heroVideo" preload="auto" autoplay="" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" style="pointer-events: none;" src="/videos/JOFHeroVideo.mp4?v=2">
+        <source src="/videos/JOFHeroVideo.mp4?v=2" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
@@ -183,38 +179,60 @@ title: Home
 </section>
 
 <script>
-  // Smooth video loop with forward/reverse playback using two video elements and a crossfade
+  // Single-video ping-pong: plays forward, then reverses near the end, then forward again.
+  // No second video element, no source swapping, no green flash.
   document.addEventListener('DOMContentLoaded', function() {
-    const forwardVideo = document.getElementById('heroVideoForward');
-    const reverseVideo = document.getElementById('heroVideoReverse');
-    if (!forwardVideo || !reverseVideo) return;
+    var video = document.getElementById('heroVideo');
+    if (!video) return;
 
-    // Start reverse video preloaded and paused at frame 0
-    reverseVideo.pause();
-    reverseVideo.currentTime = 0;
+    // Configurable timing (in seconds)
+    var reverseStartOffset = 0.5;  // begin reversing this many seconds before the end
+    var forwardStartOffset  = 0.3;  // resume forward this many seconds from the start
+    var reverseRate = -1;           // negative playbackRate for reverse
+    var forwardRate = 1;            // normal forward rate
 
-    function crossfade(fromVideo, toVideo) {
-      toVideo.currentTime = 0;
-      const playPromise = toVideo.play();
-      if (playPromise !== undefined) {
-        playPromise.then(function() {
-          toVideo.classList.add('active');
-          fromVideo.classList.remove('active');
-        }).catch(function() {
-          // Autoplay blocked; leave current video visible
-        });
-      } else {
-        toVideo.classList.add('active');
-        fromVideo.classList.remove('active');
-      }
-    }
+    var direction = 'forward'; // 'forward' | 'reverse'
 
-    forwardVideo.addEventListener('ended', function() {
-      crossfade(forwardVideo, reverseVideo);
+    video.addEventListener('loadedmetadata', function() {
+      // Ensure we start at the beginning playing forward
+      video.playbackRate = forwardRate;
+      video.play().catch(function() { /* autoplay may be blocked */ });
     });
 
-    reverseVideo.addEventListener('ended', function() {
-      crossfade(reverseVideo, forwardVideo);
+    video.addEventListener('timeupdate', function() {
+      if (isNaN(video.duration) || video.duration === 0) return;
+
+      if (direction === 'forward' && video.currentTime >= video.duration - reverseStartOffset) {
+        // Switch to reverse
+        direction = 'reverse';
+        video.playbackRate = reverseRate;
+      } else if (direction === 'reverse' && video.currentTime <= forwardStartOffset) {
+        // Switch back to forward
+        direction = 'forward';
+        video.playbackRate = forwardRate;
+      }
+    });
+
+    // Safety net: if the browser fires 'ended' despite our timeupdate handling
+    // (e.g., if timeupdate didn't fire fast enough), restart from the beginning.
+    video.addEventListener('ended', function() {
+      if (direction === 'forward') {
+        // We reached the end going forward; start reversing from near the end
+        direction = 'reverse';
+        video.currentTime = video.duration - 0.05;
+        video.playbackRate = reverseRate;
+        video.play().catch(function() {});
+      }
+    });
+
+    // Safety net: if the video pauses at frame 0 while reversing (timeupdate
+    // didn't fire fast enough), resume forward.
+    video.addEventListener('pause', function() {
+      if (direction === 'reverse' && video.currentTime <= forwardStartOffset) {
+        direction = 'forward';
+        video.playbackRate = forwardRate;
+        video.play().catch(function() {});
+      }
     });
   });
 
