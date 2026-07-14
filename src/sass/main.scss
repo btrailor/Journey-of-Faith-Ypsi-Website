@@ -55,6 +55,10 @@ main {
 // - h1, h2, hero title, nav: Bebas Neue
 // - Small uppercase labels (Our Foundation, Who We Are, Plan Your Visit): Literata
 // - h3-h6, body: Literata
+h1 {
+  font-size: 2.7rem; // ~3 pt larger than Bootstrap's 2.5rem default
+}
+
 h1,
 h2,
 .page-title,
@@ -339,6 +343,22 @@ section {
     color: $jof-sage !important;
     font-family: $font-family-body;
     font-size: 0.95rem;
+  }
+
+  .online-worship-link {
+    display: inline-block;
+    font-family: $font-family-body;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: $jof-rust;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover,
+    &:focus {
+      color: darken($jof-rust, 10%);
+      text-decoration: underline;
+    }
   }
 
   // Logo sizing

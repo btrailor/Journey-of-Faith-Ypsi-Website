@@ -138,6 +138,22 @@
       display: none;
     }
     
+    /* Online worship link in top header */
+    .online-worship-link {
+      display: inline-block;
+      font-family: 'Literata', serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #aa3f2b;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .online-worship-link:hover,
+    .online-worship-link:focus {
+      color: #7d2e1f;
+      text-decoration: underline;
+    }
+
     /* Visit section specific styles */
     .visit-section-pro {
       background: #fdfcfa;
@@ -256,6 +272,9 @@
             <strong>Worship with us Sundays, 10:00 AM</strong>
           </p>
           <p class="mb-0 text-muted">2310 Packard Rd. Ypsilanti, MI</p>
+          <p class="mb-0">
+            <a href="https://www.youtube.com/@JourneyofFaithYpsi/live" target="_blank" rel="noopener" class="online-worship-link">Join Worship Online →</a>
+          </p>
         </div>
       </div>
     </div>
@@ -292,11 +311,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/worship/" id="worshipDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Worship</a>
-            <ul class="dropdown-menu" aria-labelledby="worshipDropdown">
-              <li><a class="dropdown-item" href="/worship/in-person/">In Person</a></li>
-              <li><a class="dropdown-item" href="/worship/online/">Online</a></li>
-            </ul>
+            <a class="nav-link" href="/worship/" id="worshipDropdown">Worship</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/give/">Give</a>
@@ -313,7 +328,7 @@
   <!-- The Launcher (Floating Action Button) -->
   <div class="launcher" id="launcher">
     <div class="launcher-menu">
-      <a href="/worship/in-person/">
+      <a href="/worship/">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
           <circle cx="12" cy="10" r="3"></circle>
@@ -362,7 +377,7 @@
         <div class="col-md-4 mb-4">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
-            <li><a href="/worship/in-person/" class="text-white-50">Visit Us</a></li>
+            <li><a href="/worship/" class="text-white-50">Visit Us</a></li>
             <li><a href="/about/contact/" class="text-white-50">Contact</a></li>
             <li><a href="/give/" class="text-white-50">Give</a></li>
             <li><a href="/about/faq/" class="text-white-50">FAQ</a></li>

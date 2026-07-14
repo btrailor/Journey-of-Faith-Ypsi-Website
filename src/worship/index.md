@@ -4,28 +4,109 @@ title: Worship
 permalink: /worship/
 ---
 
-Worship is at the heart of our life together. Whether you join us in person or online, we gather to encounter God, celebrate grace, and be formed as disciples.
+Worship is at the heart of our life together. We gather to encounter God, celebrate grace, and be formed as disciples.
 
 ### Join Us for Worship
 
 **{{ site.worshipDay }} at {{ site.worshipTime }}**
 
-- [In-Person Worship](/worship/in-person/) - What to expect when you visit
-- [Online Worship](/worship/online/) - Join us from anywhere
+---
+
+<div class="online-worship-card">
+  <h3>Online Worship</h3>
+  <p>Can't make it in person? Join us online!</p>
+  <p><a href="https://www.youtube.com/@JourneyofFaithYpsi/live" target="_blank" rel="noopener" class="btn btn-primary-pro">Watch Live on YouTube</a></p>
+  <p class="mb-0">Catch up on previous messages and worship services:</p>
+  <p class="mb-0"><a href="https://www.youtube.com/@JourneyofFaithYpsi" target="_blank" rel="noopener" class="btn btn-secondary-pro">Visit Our YouTube Channel</a></p>
+</div>
+
+## In-Person Worship
+
+### What to Expect
+
+Visiting a new church can feel intimidating. Here's what to expect when you join us on Sunday morning:
 
 ---
 
-### What is Worship?
+### When & Where
 
-Worship is our response to God's love and grace. In our gatherings, we:
+**Sunday Mornings at 10 am**
 
-- Sing songs of praise and lament
-- Hear Scripture read and proclaimed
-- Share communion together
-- Pray for our community and world
-- Experience God's presence through the Holy Spirit
+2310 Packard Rd.
+Ypsilanti, MI
 
-We believe worship should engage our whole selves - heart, mind, soul, and strength. Our services blend ancient practices with contemporary expressions, creating space for all to encounter the living God.
+[Click here for a map](https://share.google/RemeBjLZhynMDB00H)
+
+---
+
+### Parking
+
+We have a parking lot, so parking is free and easy. Overflow parking is in Packard Family Dentistry's lot (after 5 pm and on weekends).
+
+The easiest way to enter the building is through the back door, at the top of the ramp. That goes straight into the back of our worship space!
+
+If you have no problem walking, please park closer to the front of the lot (near where you enter off Packard). You can enter through the front of the building, head up the stairs, and enter the door on the left.
+
+---
+
+### What to Wear
+
+Most people wear casual, everyday clothing to worship at Journey of Faith, so you can wear whatever you want! (Assuming it's appropriate for the public of course.) Jeans, shorts, dresses, a tux, or an evening gown. If your kid loves wearing pajamas, they can even come in their “comfy-cozies.” It's totally up to you!
+
+---
+
+### Children in Worship
+
+**All ages are welcome in worship!**
+
+We do not have a separate program during worship for our kids. We want children to feel welcome and included in our worship. Our children are invited to read the Scripture and call to worship, and help serve communion. We always provide an area for kids to keep their hands busy and are continually learning how to practice biblical storytelling and provide teaching in worship that connects with people of all ages.
+
+We believe children belong in worship and expect them to make joyful noise! Don't worry if your little one is restless—we're glad you're here.
+
+---
+
+### Communion
+
+**Everyone is welcome at the table.**
+
+We celebrate communion every Sunday and all are welcome to participate, regardless of church membership or denomination. Our communion elements are usually bread baked by a congregant and grape juice in small glasses. We would be happy to provide a gluten-free option if requested. Participants come forward to receive communion or can raise their hand if they need the elements brought to them.
+
+We believe the table belongs to Jesus, not to us, and all are welcome.
+
+---
+
+### Music
+
+Did you know that singing with others is good for your health? We emphasize participation rather than performance and believe music is a gift that helps us connect with God and one another. Our worship includes a blend of contemporary worship songs, gospel music, spirituals, and traditional hymns. We typically have a guitarist, pianist, and singer leading us in worship, and we LOVE hearing everyone's voice singing together.
+
+---
+
+### Fellowship
+
+**Stay for coffee and connection!**
+
+After worship, we gather for coffee, tea, and conversation. We hope you stay to meet other congregants. Everyone's pretty friendly. If you are interested in the church or just want to chat, feel free to say hi to our pastor and set up a time to get a drink together. We'd love to get to know you!
+
+---
+
+### Your First Visit
+
+When you arrive:
+
+1. Pick up a bulletin with the order of worship
+2. Find a seat anywhere—there are no assigned seats!
+3. Expect someone to greet you, whether right when you walk in or during the passing of Christ's peace
+4. Feel free to participate as much or as little as you're comfortable with
+
+Don't worry about knowing when to stand, sit, or what to say. Just follow along and participate at your comfort level.
+
+---
+
+### Still Have Questions?
+
+Check out our [FAQ](/about/faq/) or [contact us](/about/contact/). We're here to help!
+
+**We can't wait to meet you this Sunday!**
 
 ---
 
