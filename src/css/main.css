@@ -12604,6 +12604,7 @@ footer a.text-white-50 {
   background: #fff;
   padding: 1.5rem;
   border-radius: 8px;
+  border: 1px solid rgba(101, 133, 76, 0.35);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   margin-bottom: 1.5rem;
 }
@@ -12615,21 +12616,26 @@ footer a.text-white-50 {
   color: #4a4a4a;
   font-size: 0.95rem;
   line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+.online-worship-card p:last-child {
+  margin-bottom: 0;
 }
 .online-worship-card .btn {
   display: inline-flex;
   margin-top: 0.25rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .online-worship-card {
     float: right;
-    width: 340px;
+    width: 300px;
     max-width: 40%;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .online-worship-card {
     float: none;
     width: 100%;
