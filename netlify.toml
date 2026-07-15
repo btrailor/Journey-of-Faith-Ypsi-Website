@@ -24,6 +24,12 @@
     Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
+  for = "/css/*"
+  [headers.values]
+    # CSS: cache for 1 hour, must revalidate (query-string busting for new versions)
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
   for = "/images/*"
   [headers.values]
     # Images: cache for 1 month
