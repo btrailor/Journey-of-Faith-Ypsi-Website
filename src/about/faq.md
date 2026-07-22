@@ -33,7 +33,7 @@ We are apart of the Christian Church (Disciples of Christ): a movement for whole
 
 **Who can take communion?**
 
-\[Explain your communion practice and theology]
+Journey of Faith believes that the table is open to anyone who desires to participate. We hold no boundaries to participation.
 
 - - -
 
@@ -49,7 +49,7 @@ Yes! Our worship space can be accessed through a ramp at the back of the buildin
 
 **Do you have online services?**
 
-Yes! join with this link
+Yes! <a href="https://www.youtube.com/@JourneyofFaithYpsi/live" target="_blank" rel="noopener noreferrer">Join with this link</a>
 
 - - -
 

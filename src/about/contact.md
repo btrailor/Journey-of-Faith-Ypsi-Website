@@ -9,7 +9,7 @@ We'd love to hear from you!
 
 **Sundays at 10 am**
 
-2310 Packard Rd. Ypsilanti, MI 
+2310 Packard Rd. Ypsilanti, MI <a href="https://maps.google.com/?q=2310+Packard+Rd+Ypsilanti+MI" target="_blank" rel="noopener noreferrer">View on Google Maps →</a>
 
 ### Get in Touch
 
@@ -19,9 +19,8 @@ We'd love to hear from you!
 
 ### Connect on Social Media
 
-https://www.instagram.com/jofdisciples/
-
-https://www.facebook.com/JourneyofFaithCC
+- <a href="https://www.instagram.com/jofdisciples/" target="_blank" rel="noopener noreferrer">Instagram</a>
+- <a href="https://www.facebook.com/JourneyofFaithCC" target="_blank" rel="noopener noreferrer">Facebook</a>
 
 - - -
 

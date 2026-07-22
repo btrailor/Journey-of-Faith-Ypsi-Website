@@ -3,7 +3,7 @@ layout: page
 title: About Journey of Faith
 permalink: /about/
 ---
-Welcome to Journey of Faith! We are committed to love and nurture **Christ in ALL**, offer **Communion for ALL**, and **Connecting with ALL** as we pursue a vision of God's transformative, diverse, barrier-breaking community in Ypsilanti, MI. We are an LGBTQ+-affirming Christian church in Ypsilanti where all generations worship together through contemporary music, authentic community, and a commitment to following Jesus.
+Welcome to Journey of Faith! We are committed to love and nurture **Christ in ALL**, offer **Communion for ALL**, and **connect with ALL** as we pursue a vision of God's transformative, diverse, barrier-breaking community in Ypsilanti, MI. We are an LGBTQ+-affirming Christian church in Ypsilanti where all generations worship together through contemporary music, authentic community, and a commitment to following Jesus.
 
 ### Quick Links
 
