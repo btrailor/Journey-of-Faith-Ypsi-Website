@@ -9,7 +9,7 @@ We'd love to hear from you!
 
 **Sundays at 10 am**
 
-2310 Packard Rd. Ypsilanti, MI <a href="https://maps.google.com/?q=2310+Packard+Rd+Ypsilanti+MI" target="_blank" rel="noopener noreferrer">View on Google Maps →</a>
+2310 Packard Rd., Suite 3, Ypsilanti, MI <a href="https://maps.google.com/?q=2310+Packard+Rd+Ypsilanti+MI" target="_blank" rel="noopener noreferrer">View on Google Maps →</a>
 
 ### Get in Touch
 

@@ -32,7 +32,7 @@ Visiting a new church can feel intimidating. Here's what to expect when you join
 
 **Sunday Mornings at 10 am**
 
-2310 Packard Rd.
+2310 Packard Rd., Suite 3
 Ypsilanti, MI
 
 [Click here for a map](https://share.google/RemeBjLZhynMDB00H)
