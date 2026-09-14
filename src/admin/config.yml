@@ -23,8 +23,6 @@ collections:
               default: "base",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Hero Title", name: "heroTitle", widget: "string" }
-          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "about"
@@ -147,6 +145,25 @@ collections:
   - name: "convictions"
     label: "Convictions"
     files:
+      - label: "Convictions Overview"
+        name: "convictions_index"
+        file: "src/convictions/index.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/convictions/",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - label: "Vision We Share"
         name: "vision"
         file: "src/convictions/vision.md"
@@ -207,9 +224,9 @@ collections:
   - name: "worship"
     label: "Worship"
     files:
-      - label: "In-Person Worship"
-        name: "in_person"
-        file: "src/worship/in-person.md"
+      - label: "Worship"
+        name: "worship_index"
+        file: "src/worship/index.md"
         fields:
           - {
               label: "Layout",
@@ -222,32 +239,32 @@ collections:
               label: "Permalink",
               name: "permalink",
               widget: "hidden",
-              default: "/worship/in-person/",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-
-      - label: "Online Worship"
-        name: "online"
-        file: "src/worship/online.md"
-        fields:
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "page",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - {
-              label: "Permalink",
-              name: "permalink",
-              widget: "hidden",
-              default: "/worship/online/",
+              default: "/worship/",
             }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "community_pages"
     label: "Community Pages"
     files:
+      - label: "Community Overview"
+        name: "community_index"
+        file: "src/community/index.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/community/",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - label: "Community Groups"
         name: "groups"
         file: "src/community/groups.md"
@@ -327,6 +344,63 @@ collections:
   - name: "mission_pages"
     label: "Mission Pages"
     files:
+      - label: "Mission & Outreach Overview"
+        name: "mission_index"
+        file: "src/mission/index.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/mission/",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Alpha House"
+        name: "alpha_house"
+        file: "src/mission/alpha-house.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/mission/alpha-house/",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "A Servant's Heart"
+        name: "servants_heart"
+        file: "src/mission/servants-heart.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/mission/servants-heart/",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - label: "Housing Ministry"
         name: "housing"
         file: "src/mission/housing.md"
