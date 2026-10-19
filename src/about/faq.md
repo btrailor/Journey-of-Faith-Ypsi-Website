@@ -25,7 +25,7 @@ We believe children belong in worship and expect them to make joyful noise! Don'
 
 **What do you believe?**
 
-The Christian Church (Disciples of Christ) embraces a diversity of theological perspectives within a shared commitment to follow Jesus as Lord and proclaim him as savior. Members of our congregation make that profession of faith (Jesus is Lord and savior). They have varying ways of understanding that commitment. As a church we are guided by our vision, mission, and values. You can read about [our convictions here.](jofypsi.com/convictions) 
+The Christian Church (Disciples of Christ) embraces a diversity of theological perspectives within a shared commitment to follow Jesus as Lord and proclaim him as savior. Members of our congregation make that profession of faith (Jesus is Lord and savior). They have varying ways of understanding that commitment. As a church we are guided by our vision, mission, and values. You can read about [our convictions here.](/convictions) 
 
 **What denomination are you?**
 
